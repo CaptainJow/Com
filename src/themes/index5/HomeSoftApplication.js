@@ -17,7 +17,7 @@ import Layout from '../../layout/Layout';
 
 const HomeSoftApplication = () => {
   return (
-    <Layout extraClass='overflow-hidden'>
+    <Layout extraclassName='overflow-hidden'>
       <PageMeta title='Software Application - Software &amp; IT Solutions HTML Template' />
       <Navbar />
       <HeroFive />

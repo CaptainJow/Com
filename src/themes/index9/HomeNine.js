@@ -9,19 +9,24 @@ import ServicePromo from "../../components/promo/ServicePromo";
 import TechTab from "../../components/tabs/TechTab";
 import TestimonialFive from "../../components/testimonial/TestimonialFive";
 import FooterTwo from "../../layout/Footer/FooterTwo";
+import Footer_bootstrap from "../../layout/Footer/Footer_bootstrap";
 import Navbar from "../../layout/Header/Navbar";
 import Layout from "../../layout/Layout";
 import HeroNine from "./HeroNine";
 import Customer from "../../components/customer/Customer"; 
+import Footer_hire from "../../layout/Footer/Footer_hire";
+import Products from "../../components/yousef_compoments/Products";
 const HomeNine = () => {
   return (
     <Layout>
       <PageMeta title="IT Solution- Software &amp; IT Solutions HTML Template" />
       <Navbar />
       <HeroNine />
+      <Products />
       <CustomerLogo />
       <Customer />
-      <FooterTwo/>
+      <Footer_hire />
+      <Footer_bootstrap/>
     </Layout>
   );
 };
