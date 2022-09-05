@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
+import { Link } from "react-scroll";
 const OffCanvasMenu = () => {
   return (
     <>
@@ -33,18 +32,17 @@ const OffCanvasMenu = () => {
         <div className="offcanvas-body">
           <ul className="nav col-12 col-md-auto justify-content-center main-menu">
             <li className="nav-item dropdown">
-              <a
-                className="nav-link "
-                href="/"
-                role="button"
-          
-              >
-                Home
-              </a>
+            <Link
+                    to="Main"
+                    className="nav-link"
+                    role ="button"
+                  >
+                    Home
+                  </Link>
             </li>
             <li>
                   <Link
-                    to="/about-us"
+                    to="Main"
                     className="nav-link"
                   >
                     About
@@ -52,7 +50,7 @@ const OffCanvasMenu = () => {
                 </li>
                 <li>
                   <Link
-                    to="/services"
+                    to="Services"
                     className="nav-link"
                   >
                     Services
@@ -60,15 +58,15 @@ const OffCanvasMenu = () => {
                 </li>
                 <li>
                   <Link
-                    to="/"
+                    to="Products"
                     className="nav-link"
                   >
-                    Partners
+                    Products
                   </Link>
                 </li>
                 <li>
                   <Link
-                    to="/contact-us"
+                    to="ContactUs"
                     className="nav-link"
                   >
                     Contact Us

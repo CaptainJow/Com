@@ -5,7 +5,7 @@ const Products = () => {
     window.open(url, '_blank', 'noopener,noreferrer');
   };
   return (
-    <section className="brand-logo ptb-120">
+    <section id="Products" className="brand-logo section">
       <div className="container">
       <div className="header">
     <h1>Our Products</h1>

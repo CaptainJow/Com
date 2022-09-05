@@ -6,34 +6,34 @@ import { FaInstagram , FaTwitter , FaGithub } from 'react-icons/fa';
 const Footer_bootstrap = () => {
   return (
     <>
-  <footer className="deneb_footer color-img ptb-60">
+  <footer className="deneb_footer color-img-footer ptb-60">
 	<div className="widget_wrapper" >
 		<div className="container">
-			<div className="row">
-				<div className="col-lg-4 col-md-6 col-12">
+			<div className="row_me">
+				<div className="">
 					<div className="widget_about">
 						<p>If you think you have the passion, attitude and capability to join us the next big software companys so that we can get the convers.</p>
 						<ul className="social">
-							<li><FaGithub /></li>
-							<li><FaTwitter /></li>
-							<li><FaInstagram /></li>
+							<li><Link to=""><FaGithub /></Link></li>
+							<li><Link to=""><FaTwitter /></Link></li>
+							<li><Link to=""><FaInstagram /></Link></li>
 						</ul>
 					</div>
 				</div>
-				<div className="col-lg-4 col-md-6 col-sm-12">
+				<div className="">
 					<div className="widget widget_link">
 						<div className="widget_title">
 							<h4>Links</h4>
 						</div>
 						<ul>
-							<li><a href="#">About Us</a></li>
-							<li><a href="#">Services</a></li>
-							<li><a href="#">Portfolio</a></li>
-							<li><a href="#">Blog</a></li>
+							<li><Link to="#">About Us</Link></li>
+							<li><Link to="#">Services</Link></li>
+							<li><Link to="#">Portfolio</Link></li>
+							<li><Link to="#">Blog</Link></li>
 						</ul>
 					</div>
 				</div>
-				<div className="col-lg-4 col-md-6 col-sm-12">
+				<div className="">
 					<div className="widget widget_contact">
 						<div className="widget_title">
 							<h4>Contact Us</h4>

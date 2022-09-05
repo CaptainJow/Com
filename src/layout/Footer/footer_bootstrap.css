@@ -178,4 +178,24 @@ footer{margin-top:20px;}
 
 .color-img-footer{
     background-color: var(--bs-primary-dark);
+    width: 100%;
+    border-top-left-radius: 210px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 210px; /* 100px of height + 10px of border */
+    border-bottom: 0;
+}
+
+.row_me{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    flex-direction: row;
+    flex-wrap: wrap;
+ 
+    margin: 1rem;
+}
+.widget_about{
+    width: 400px;
+    text-align: center;
+    margin-bottom: 2rem;
+
 }

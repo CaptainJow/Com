@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-import ModalVideo from "react-modal-video";
 import { Link } from "react-router-dom";
 import './HeroNine.css' ;
 
 const HeroNine = () => {
   const [isOpen, setOpen] = useState(false);
   return (
-    <section
+    <section id="Main"
       className="color-img ptb-120"
     >
       <div className=" container">

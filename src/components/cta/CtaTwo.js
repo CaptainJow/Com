@@ -15,30 +15,11 @@ const CtaTwo = () => {
               <div className='subscribe-info-wrap text-center position-relative z-2'>
                 <SectionTitle
                   subtitle="Let's Try! Get Free Support"
-                  title='Start Your 14-Day Free Trial'
+                  title='We Help you Stay Connected'
                   description='We can help you to create your dream website for better
                     business revenue.'
                   dark
                 />
-                <div className='form-block-banner mw-60 m-auto mt-5'>
-                  <Link to='/contact-us' className='btn btn-primary'>
-                    Contact with Us
-                  </Link>
-                  <ModalVideo
-                    channel='youtube'
-                    autoplay
-                    isOpen={isOpen}
-                    videoId='hAP2QF--2Dg'
-                    onClose={() => setOpen(false)}
-                  />
-                  <Link
-                    to='#'
-                    className='text-decoration-none d-inline-flex align-items-center watch-now-btn ms-lg-3 ms-md-3 mt-3 mt-lg-0'
-                    onClick={() => setOpen(true)}
-                  >
-                    <i className='fas fa-play'></i> Watch Demo{' '}
-                  </Link>
-                </div>
                 <ul
                   className='nav justify-content-center subscribe-feature-list mt-4'
                   data-aos='fade-up'

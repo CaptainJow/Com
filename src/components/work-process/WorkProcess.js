@@ -10,7 +10,7 @@ const WorkProcess = () => {
             <div className='col-lg-6 col-md-10'>
               <SectionTitle
                 subtitle='Process'
-                title='We Follow Our Work Process'
+                title=''
                 description='Enthusiastically engage cross-media leadership skills for
                   alternative experiences. Proactively drive vertical systems
                   than intuitive architectures.'

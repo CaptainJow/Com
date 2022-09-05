@@ -5,8 +5,7 @@ const CtaFour = () => {
   return (
     <>
       <section
-        className='app-two-cta ptb-120 text-white'
-        style={{ background: "url('assets/img/app-two-mockup-bg.png')" }}
+        className='cta-subscribe  bg-dark ptb-120 position-relative overflow-hidden'
       >
         <div className='container'>
           <div className='row align-items-center justify-content-lg-between'>
@@ -30,22 +29,6 @@ const CtaFour = () => {
                     architectures authoritatively fabricate.
                   </p>
                 </div>
-                <div className='cta-count'>
-                  <ul className='list-unstyled d-flex'>
-                    <li className='me-4'>
-                      <h3 className='text-white mb-0'>72k+</h3>
-                      <span>Happy users</span>
-                    </li>
-                    <li className='me-4'>
-                      <h3 className='text-white mb-0'>16</h3>
-                      <span>Good reviews</span>
-                    </li>
-                    <li className='me-4'>
-                      <h3 className='text-white mb-0'>28k+</h3>
-                      <span>App download</span>
-                    </li>
-                  </ul>
-                </div>
                 <div className='action-btns mt-5'>
                   <Link to='/contact-us' className='btn btn-outline-light'>
                     Learn More
@@ -54,6 +37,26 @@ const CtaFour = () => {
               </div>
             </div>
           </div>
+          <div
+            className='
+              bg-circle
+              rounded-circle
+              circle-shape-3
+              position-absolute
+              bg-dark-light
+              left-5
+            '
+          ></div>
+          <div
+            className='
+              bg-circle
+              rounded-circle
+              circle-shape-1
+              position-absolute
+              bg-warning
+              right-5
+            '
+          ></div>
         </div>
       </section>
     </>

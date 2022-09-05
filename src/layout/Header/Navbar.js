@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import OffCanvasMenu from "./OffCanvasMenu";
 import './navbar.css'
+import { Link } from "react-scroll";
 
 const Navbar = ({ navDark }) => {
   const [scroll, setScroll] = useState(0);
@@ -65,7 +65,7 @@ const Navbar = ({ navDark }) => {
                 <li className="nav-item dropdown">
                   <Link
                     className="nav-link"
-                    to="/"
+                    to="Main"
                     role="button"
                   >
                     Home
@@ -73,7 +73,7 @@ const Navbar = ({ navDark }) => {
                 </li>
                 <li>
                   <Link
-                    to="/about-us"
+                    to="/"
                     className="nav-link"
                   >
                     About
@@ -81,7 +81,7 @@ const Navbar = ({ navDark }) => {
                 </li>
                 <li>
                   <Link
-                    to="/services"
+                    to="Services"
                     className="nav-link"
                   >
                     Services
@@ -89,15 +89,7 @@ const Navbar = ({ navDark }) => {
                 </li>
                 <li>
                   <Link
-                    to="/"
-                    className="nav-link"
-                  >
-                    Partners
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/contact-us"
+                    to="ContactUs"
                     className="nav-link"
                   >
                     Contact Us
@@ -105,10 +97,10 @@ const Navbar = ({ navDark }) => {
                 </li>
                 <li>
                   <Link
-                    to="/career"
+                    to="Products"
                     className="nav-link"
                   >
-                    Career
+                    Products
                   </Link>
                 </li>
               </ul>

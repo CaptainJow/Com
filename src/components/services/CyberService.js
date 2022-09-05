@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 
 const CyberService = () => {
   return (
-    <section className="cyber-features pt-100 bg-light">
+    <section id="Services" className="cyber-features pt-100 bg-light">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-8 col-lg-6">
             <div className="section-heading text-center mb-5">
-              <h5 className="h6 text-primary">Service</h5>
-              <h2>High Quality Trusted Cyber Security solution</h2>
+              <h5 className="h6 text-primary">Software Development</h5>
+              <h2> Our Services</h2>
               <p>
                 Uniquely promote adaptive quality vectors rather than
                 stand-alone e-markets. pontificate alternative architectures
@@ -25,7 +25,7 @@ const CyberService = () => {
                 <i className="far fa-list"></i>
               </div>
               <div className="cyber feature-info-wrap">
-                <h3 className="h5">Disaster Planning</h3>
+                <h3 className="h5">SaaS Projects</h3>
                 <p>
                   Randomised words which don't look even passage of Lorem Ipsum.
                   You need to be Lorem Ipsum randomised even .
@@ -45,7 +45,7 @@ const CyberService = () => {
                 <i className="far fa-cloud"></i>
               </div>
               <div className="cyber feature-info-wrap">
-                <h3 className="h5">Cloud Security</h3>
+                <h3 className="h5">Cloud Solutions</h3>
                 <p>
                   Randomised words which don't look even passage of Lorem Ipsum.
                   You need to be Lorem Ipsum randomised even .
@@ -65,7 +65,7 @@ const CyberService = () => {
                 <i className="far fa-database"></i>
               </div>
               <div className="cyber feature-info-wrap">
-                <h3 className="h5">Database Security</h3>
+                <h3 className="h5">Backend Development</h3>
                 <p>
                   Randomised words which don't look even passage of Lorem Ipsum.
                   You need to be Lorem Ipsum randomised even .
@@ -85,7 +85,7 @@ const CyberService = () => {
                 <i className="far fa-door-closed"></i>
               </div>
               <div className="cyber feature-info-wrap">
-                <h3 className="h5">Locker Security</h3>
+                <h3 className="h5">Service Provider for 3rd Parties</h3>
                 <p>
                   Randomised words which don't look even passage of Lorem Ipsum.
                   You need to be Lorem Ipsum randomised even .
@@ -105,7 +105,7 @@ const CyberService = () => {
                 <i className="far fa-shield-check"></i>
               </div>
               <div className="cyber feature-info-wrap">
-                <h3 className="h5">Data Security</h3>
+                <h3 className="h5">App Development</h3>
                 <p>
                   Randomised words which don't look even passage of Lorem Ipsum.
                   You need to be Lorem Ipsum randomised even .
@@ -125,7 +125,7 @@ const CyberService = () => {
                 <i className="far fa-server"></i>
               </div>
               <div className="cyber feature-info-wrap">
-                <h3 className="h5">Web Security</h3>
+                <h3 className="h5">Corporate Websites</h3>
                 <p>
                   Randomised words which don't look even passage of Lorem Ipsum.
                   You need to be Lorem Ipsum randomised even .
