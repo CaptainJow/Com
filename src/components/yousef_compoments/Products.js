@@ -1,9 +1,8 @@
 import React from "react";
 import './products.css' ;
+import { Link } from "react-router-dom";
 const Products = () => {
-  const openInNewTab = url => {
-    window.open(url, '_blank', 'noopener,noreferrer');
-  };
+
   return (
     <section id="Products" className="brand-logo section">
       <div className="container">
@@ -14,23 +13,23 @@ const Products = () => {
     <p>these products are full-stack products and were built completly by our teams </p>
   </div>
   <div className="row1-container" >
-    <div className="box box-down cyan" onClick={() => openInNewTab('http://crm.shamssoftware.com/Account/SignIn?ReturnUrl=%2F')}>
+    <Link to="/ISIL" className="box box-down cyan" >
       <h2>Işın Daylight</h2>
       <p>Monitors activity to identify project roadblocks</p>
       <img  src="assets/img/isin_daylight.png" alt="logo_isin" className=" img_product  " /> 
-    </div>
+    </Link>
 
-    <div className="box red" onClick={() => openInNewTab('https://faturahub.com/')}>
+    <Link to="faturahub" className="box red " >
       <h2>FaturaHub</h2>
       <p>Scans our talent network to create the optimal team for your project</p>
       <img  src="assets/img/Fatura_hub.png" alt="logo_faturahub" className="img_product " /> 
-    </div>
+    </Link>
 
-    <div className="box box-down blue" onClick={() => openInNewTab('https://demo.elementserp.com/')}>
+    <Link to="element" className="box box-down blue" >
       <h2>Elements</h2>
       <p>Uses data from past projects to provide better delivery estimates</p>
       <img  src="assets/img/ERP.png" alt="ERP" className="img_product element_img"/>
-    </div>
+    </Link>
   </div>   
       </div>
       

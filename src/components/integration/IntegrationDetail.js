@@ -108,7 +108,6 @@ const IntegrationDetail = () => {
               </div>
             </div>
             <div className='col-lg-4'>
-              <IntegrationForm />
             </div>
           </div>
         </div>

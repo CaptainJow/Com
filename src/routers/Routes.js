@@ -34,6 +34,9 @@ import SingleProduct from "../pages/product/SingleProduct";
 import SinglePortfolio from "../pages/SinglePortfolio";
 import HomeEleven from "../themes/index11/HomeEleven";
 import HomeTwelve from "../themes/index12/HomeTwelve";
+import Fatura_hub from "../pages/product-about/FaturaHub";
+import Element_s from "../pages/product-about/Element/Element_s";
+import ISIL_s from "../pages/product-about/ISIL/ISIL_s";
 
 class Routes extends Component {
   render() {
@@ -87,12 +90,16 @@ class Routes extends Component {
             <Route exact path="/request-for-demo" component={RequestDemo} />
             <Route exact path="/coming-soon" component={ComingSoon} />
             <Route exact path="/integrations" component={Integrations} />
+            <Route exact path ="/faturahub" component={Fatura_hub} />
+            <Route exact path ="/element" component={Element_s} />
+            <Route excat path ="/ISIL" component={ISIL_s} />
             <Route
               exact
               path="/integration-single"
               component={IntegrationSingle}
             />
             <Route component={NotFoundScreen} />
+            
           </Switch>
         </Router>
       </>

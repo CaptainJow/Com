@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState} from "react";
 import OffCanvasMenu from "./OffCanvasMenu";
 import './navbar.css'
-import { Link } from "react-scroll";
+import { useLocation , Link} from "react-router-dom" ;
 
 const Navbar = ({ navDark }) => {
   const [scroll, setScroll] = useState(0);
@@ -19,6 +19,18 @@ const Navbar = ({ navDark }) => {
   const handleScroll = () => {
     setScroll(window.scrollY);
   };
+  const location = useLocation();
+
+  useEffect(()=> {
+    if (location.hash) {
+        let elem = document.getElementById(location.hash.slice(1))
+        if (elem) {
+            elem.scrollIntoView({behavior: "smooth"})
+        }
+    } else {
+    window.scrollTo({top:0,left:0, behavior: "smooth"})
+    }
+}, [location,]) ;
   return (
     <>
       <header
@@ -65,7 +77,7 @@ const Navbar = ({ navDark }) => {
                 <li className="nav-item dropdown">
                   <Link
                     className="nav-link"
-                    to="Main"
+                    to="/"
                     role="button"
                   >
                     Home
@@ -73,34 +85,43 @@ const Navbar = ({ navDark }) => {
                 </li>
                 <li>
                   <Link
-                    to="/"
-                    className="nav-link"
-                  >
-                    About
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="Services"
+                    to="/#Services"
                     className="nav-link"
                   >
                     Services
                   </Link>
                 </li>
+           
                 <li>
                   <Link
-                    to="ContactUs"
+                    to="/#Products"
                     className="nav-link"
                   >
-                    Contact Us
+                    Products
                   </Link>
                 </li>
                 <li>
                   <Link
-                    to="Products"
+                    to="/#Partners"
                     className="nav-link"
                   >
-                    Products
+                    Partners
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="Career"
+                    className="nav-link"
+                  >
+                    Career
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/contact-us"
+                    className="nav-link"
+                  >
+                    Contact Us
                   </Link>
                 </li>
               </ul>

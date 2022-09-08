@@ -1,6 +1,18 @@
-import React from "react";
-import { Link } from "react-scroll";
+import React ,{useEffect } from "react";
+import { useLocation   ,Link } from "react-router-dom"  ;
 const OffCanvasMenu = () => {
+  const location = useLocation();
+  
+  useEffect(()=> {
+    if (location.hash) {
+        let elem = document.getElementById(location.hash.slice(1))
+        if (elem) {
+            elem.scrollIntoView({behavior: "smooth"})
+        }
+    } else {
+    window.scrollTo({top:0,left:0, behavior: "smooth"})
+    }
+}, [location,]) ;
   return (
     <>
       <div
@@ -33,7 +45,7 @@ const OffCanvasMenu = () => {
           <ul className="nav col-12 col-md-auto justify-content-center main-menu">
             <li className="nav-item dropdown">
             <Link
-                    to="Main"
+                    to="/"
                     className="nav-link"
                     role ="button"
                   >
@@ -42,23 +54,16 @@ const OffCanvasMenu = () => {
             </li>
             <li>
                   <Link
-                    to="Main"
-                    className="nav-link"
-                  >
-                    About
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="Services"
+                    to="/#Services"
                     className="nav-link"
                   >
                     Services
                   </Link>
                 </li>
+           
                 <li>
                   <Link
-                    to="Products"
+                    to="/#Products"
                     className="nav-link"
                   >
                     Products
@@ -66,7 +71,23 @@ const OffCanvasMenu = () => {
                 </li>
                 <li>
                   <Link
-                    to="ContactUs"
+                    to="/#Partners"
+                    className="nav-link"
+                  >
+                    Partners
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="Career"
+                    className="nav-link"
+                  >
+                    Career
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/contact-us"
                     className="nav-link"
                   >
                     Contact Us

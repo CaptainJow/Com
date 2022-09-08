@@ -9,21 +9,21 @@ import HeroNine from "./HeroNine";
 import Products from "../../components/yousef_compoments/Products";
 import CtaFour from "../../components/cta/CtaFour" ;
 import WorkProcess from "../../components/work-process/WorkProcess";
+import WorkProcessTwo from "../../components/work-process/WorkProcessTwo";
 import CtaThree from "../../components/cta/CtaThree";
 import IntegrationOne from "../../components/integration/IntegrationOne";
 const HomeNine = () => {
   return (
     <Layout>
-      <PageMeta title="IT Solution- Software &amp; IT Solutions HTML Template" />
-      <Navbar />
+      <PageMeta title='ShamsSoftware' />
+      <Navbar  />
       <HeroNine />
       <CyberService />
       <CtaTwo />
-      <WorkProcess />
-      <CtaThree />
-      <Products />
-      <CtaFour/>
+      <CtaThree /> 
+      <WorkProcessTwo/>
       <IntegrationOne/>
+      <Products />
       <FooterOne footerLight />
     </Layout>
   );

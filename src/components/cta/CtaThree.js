@@ -5,7 +5,7 @@ import SectionTitle from '../common/SectionTitle';
 const CtaThree = () => {
   return (
     <>
-      <section className='cta-section bg-dark ptb-120 position-relative overflow-hidden'>
+      <section className='cta-section  ptb-120 position-relative overflow-hidden'>
         <div className='container'>
           <div className='row align-items-center justify-content-between'>
             <div className='col-lg-5 col-md-12'>
@@ -53,8 +53,6 @@ const CtaThree = () => {
               </div>
             </div>
           </div>
-          <div className='bg-circle rounded-circle circle-shape-3 position-absolute bg-dark-light left-30'></div>
-          <div className='bg-circle rounded-circle circle-shape-1 position-absolute bg-warning left-5'></div>
         </div>
       </section>
     </>

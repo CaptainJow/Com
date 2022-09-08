@@ -18,12 +18,7 @@ const Contact = () => {
       />
       <ContactBox />
       <ContactFormTwo />
-      <FooterOne
-        style={{
-          background:
-            "url('assets/img/page-header-bg.svg')no-repeat bottom right",
-        }}
-      />
+      <FooterOne footerLight />
     </Layout>
   );
 };

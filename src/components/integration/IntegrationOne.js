@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const IntegrationOne = () => {
   return (
     <>
-      <section className='integration-section ptb-120'>
+      <section id="Partners" className='integration-section ptb-120'>
         <div className='container'>
           <div className='row align-items-center justify-content-between'>
             <div className='col-lg-3'>
