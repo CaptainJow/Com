@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import ModalVideo from 'react-modal-video';
 import HeroTitle from '../../components/common/HeroTitle';
 import './HeroNine.css' ;
-
+import { useTranslation } from "react-i18next";
 const HeroNine = () => {
-  // Modal Video
+  const { t, i18n } = useTranslation();
   const [isOpen, setOpen] = useState(false);
   return (
     <>

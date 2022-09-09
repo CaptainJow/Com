@@ -1,12 +1,15 @@
 import React, { useEffect, useState} from "react";
 import OffCanvasMenu from "./OffCanvasMenu";
-import './navbar.css'
+import './navbar.css'  ; 
 import { useLocation , Link} from "react-router-dom" ;
+import { useTranslation } from "react-i18next";
+import { GrLanguage } from "react-icons/gr"  ; 
 
+ 
 const Navbar = ({ navDark }) => {
   const [scroll, setScroll] = useState(0);
   const [headerTop, setHeaderTop] = useState(0);
-
+  
   useEffect(() => {
     const stickyheader = document.querySelector(".main-header");
     setHeaderTop(stickyheader.offsetTop);
@@ -31,6 +34,9 @@ const Navbar = ({ navDark }) => {
     window.scrollTo({top:0,left:0, behavior: "smooth"})
     }
 }, [location,]) ;
+
+const { t, i18n } = useTranslation();
+
   return (
     <>
       <header
@@ -80,7 +86,7 @@ const Navbar = ({ navDark }) => {
                     to="/"
                     role="button"
                   >
-                    Home
+                    {t('Home')}
                   </Link>
                 </li>
                 <li>
@@ -88,7 +94,7 @@ const Navbar = ({ navDark }) => {
                     to="/#Services"
                     className="nav-link"
                   >
-                    Services
+                     {t('Services')}
                   </Link>
                 </li>
            
@@ -97,7 +103,7 @@ const Navbar = ({ navDark }) => {
                     to="/#Products"
                     className="nav-link"
                   >
-                    Products
+                     {t('Products')}
                   </Link>
                 </li>
                 <li>
@@ -105,7 +111,7 @@ const Navbar = ({ navDark }) => {
                     to="/#Partners"
                     className="nav-link"
                   >
-                    Partners
+                     {t('Patners')}
                   </Link>
                 </li>
                 <li>
@@ -113,7 +119,7 @@ const Navbar = ({ navDark }) => {
                     to="Career"
                     className="nav-link"
                   >
-                    Career
+                     {t('Career')}
                   </Link>
                 </li>
                 <li>
@@ -121,11 +127,18 @@ const Navbar = ({ navDark }) => {
                     to="/contact-us"
                     className="nav-link"
                   >
-                    Contact Us
+                     {t('ContactUs')}
                   </Link>
                 </li>
               </ul>
             </div>
+                <div className="dropdown switch">
+                 <span ><GrLanguage className="lang-but" /></span>
+                 <div className="dropdown-content">
+                   <div  className="dropdown-item" onClick={ () => {i18n.changeLanguage("en"); } } >EN</div>
+                   <div   className="dropdown-item" onClick={ () => {i18n.changeLanguage("tr"); } } >TR</div>
+                   </div>
+                  </div>
             <OffCanvasMenu />
           </div>
         </nav>

@@ -1,5 +1,7 @@
 import React ,{useEffect } from "react";
 import { useLocation   ,Link } from "react-router-dom"  ;
+import { useTranslation } from "react-i18next";
+import { GrLanguage } from "react-icons/gr"  ; 
 const OffCanvasMenu = () => {
   const location = useLocation();
   
@@ -13,6 +15,11 @@ const OffCanvasMenu = () => {
     window.scrollTo({top:0,left:0, behavior: "smooth"})
     }
 }, [location,]) ;
+const { t, i18n } = useTranslation();
+const changeLanguageHandler = (e) => {
+  const languageValue = e.target.value
+  i18n.changeLanguage(languageValue);
+}
   return (
     <>
       <div
@@ -40,24 +47,25 @@ const OffCanvasMenu = () => {
           >
             <i className="far fa-close"></i>
           </button>
+          
         </div>
         <div className="offcanvas-body">
           <ul className="nav col-12 col-md-auto justify-content-center main-menu">
-            <li className="nav-item dropdown">
-            <Link
-                    to="/"
+          <li className="nav-item dropdown">
+                  <Link
                     className="nav-link"
-                    role ="button"
+                    to="/"
+                    role="button"
                   >
-                    Home
+                    {t('Home')}
                   </Link>
-            </li>
-            <li>
+                </li>
+                <li>
                   <Link
                     to="/#Services"
                     className="nav-link"
                   >
-                    Services
+                     {t('Services')}
                   </Link>
                 </li>
            
@@ -66,7 +74,7 @@ const OffCanvasMenu = () => {
                     to="/#Products"
                     className="nav-link"
                   >
-                    Products
+                     {t('Products')}
                   </Link>
                 </li>
                 <li>
@@ -74,7 +82,7 @@ const OffCanvasMenu = () => {
                     to="/#Partners"
                     className="nav-link"
                   >
-                    Partners
+                     {t('Patners')}
                   </Link>
                 </li>
                 <li>
@@ -82,7 +90,7 @@ const OffCanvasMenu = () => {
                     to="Career"
                     className="nav-link"
                   >
-                    Career
+                     {t('Career')}
                   </Link>
                 </li>
                 <li>
@@ -90,10 +98,21 @@ const OffCanvasMenu = () => {
                     to="/contact-us"
                     className="nav-link"
                   >
-                    Contact Us
+                     {t('ContactUs')}
                   </Link>
                 </li>
+
+                <li className="nav-link">
+                <div className="dropdown ">
+                 <span ><GrLanguage className="lang-but" /></span>
+                 <div className="dropdown-content">
+                   <div  className="dropdown-item" onClick={ () => {i18n.changeLanguage("en"); } } >EN</div>
+                   <div   className="dropdown-item" onClick={ () => {i18n.changeLanguage("tr"); } } >TR</div>
+                   </div>
+                  </div>   
+                </li>
           </ul>
+       
         </div>
       </div>
     </>
