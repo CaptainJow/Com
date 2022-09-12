@@ -1,9 +1,11 @@
-import React ,{useEffect } from "react";
+import React ,{useEffect ,useState } from "react";
 import { useLocation   ,Link } from "react-router-dom"  ;
 import { useTranslation } from "react-i18next";
 import { GrLanguage } from "react-icons/gr"  ; 
 const OffCanvasMenu = () => {
   const location = useLocation();
+  
+  const [currentLanguage , setCurrentLanguage] = useState("en") ;
   
   useEffect(()=> {
     if (location.hash) {
@@ -20,6 +22,19 @@ const changeLanguageHandler = (e) => {
   const languageValue = e.target.value
   i18n.changeLanguage(languageValue);
 }
+
+
+useEffect(()=>{
+  const data = window.localStorage.getItem('Language_state') ;  
+   if( data !== null ) setCurrentLanguage(JSON.parse(data)) ;
+  
+  
+  },[])
+  useEffect(() => {
+    window.localStorage.setItem('Language_state' , JSON.stringify(currentLanguage)); 
+    i18n.changeLanguage(currentLanguage) ;
+  
+  }, [currentLanguage])
   return (
     <>
       <div
@@ -106,8 +121,8 @@ const changeLanguageHandler = (e) => {
                 <div className="dropdown ">
                  <span ><GrLanguage className="lang-but" /></span>
                  <div className="dropdown-content">
-                   <div  className="dropdown-item" onClick={ () => {i18n.changeLanguage("en"); } } >EN</div>
-                   <div   className="dropdown-item" onClick={ () => {i18n.changeLanguage("tr"); } } >TR</div>
+                 <div  className="dropdown-item" onClick={ () =>  setCurrentLanguage('en')  } >EN</div>
+                   <div   className="dropdown-item" onClick={ () => setCurrentLanguage('tr')   } > TR</div>
                    </div>
                   </div>   
                 </li>

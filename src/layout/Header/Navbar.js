@@ -5,11 +5,14 @@ import { useLocation , Link} from "react-router-dom" ;
 import { useTranslation } from "react-i18next";
 import { GrLanguage } from "react-icons/gr"  ; 
 
+
  
 const Navbar = ({ navDark }) => {
   const [scroll, setScroll] = useState(0);
   const [headerTop, setHeaderTop] = useState(0);
-  
+  const [currentLanguage , setCurrentLanguage] = useState("en") ;
+
+
   useEffect(() => {
     const stickyheader = document.querySelector(".main-header");
     setHeaderTop(stickyheader.offsetTop);
@@ -36,6 +39,19 @@ const Navbar = ({ navDark }) => {
 }, [location,]) ;
 
 const { t, i18n } = useTranslation();
+
+// language effect save
+useEffect(()=>{
+const data = window.localStorage.getItem('Language_state') ;  
+ if( data !== null ) setCurrentLanguage(JSON.parse(data)) ;
+
+
+},[])
+useEffect(() => {
+  window.localStorage.setItem('Language_state' , JSON.stringify(currentLanguage)); 
+  i18n.changeLanguage(currentLanguage) ;
+
+}, [currentLanguage])
 
   return (
     <>
@@ -135,8 +151,8 @@ const { t, i18n } = useTranslation();
                 <div className="dropdown switch">
                  <span ><GrLanguage className="lang-but" /></span>
                  <div className="dropdown-content">
-                   <div  className="dropdown-item" onClick={ () => {i18n.changeLanguage("en"); } } >EN</div>
-                   <div   className="dropdown-item" onClick={ () => {i18n.changeLanguage("tr"); } } >TR</div>
+                   <div  className="dropdown-item" onClick={ () =>  setCurrentLanguage('en')  } >EN</div>
+                   <div   className="dropdown-item" onClick={ () => setCurrentLanguage('tr')   } > TR</div>
                    </div>
                   </div>
             <OffCanvasMenu />
