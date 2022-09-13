@@ -2,13 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const CyberService = () => {
+  console.log("CyberService");
   return (
     <section id="Services" className="cyber-features pt-100 bg-light">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-8 col-lg-6">
             <div className="section-heading text-center mb-5">
-              <h5 className="h6 text-primary">Software Development</h5>
+              <h5 className="h6 text-primary"></h5>
               <h2> Our Services</h2>
               <p>
                 Uniquely promote adaptive quality vectors rather than
@@ -42,10 +43,10 @@ const CyberService = () => {
           <div className="col-lg-4">
             <div className="cyber-single-service bg-white rounded-custom mb-30">
               <div className="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
-                <i className="far fa-cloud"></i>
+                <i className="far 	fa-code"></i>
               </div>
               <div className="cyber feature-info-wrap">
-                <h3 className="h5">Cloud Solutions</h3>
+                <h3 className="h5">Software Development</h3>
                 <p>
                   Randomised words which don't look even passage of Lorem Ipsum.
                   You need to be Lorem Ipsum randomised even .
@@ -139,6 +140,67 @@ const CyberService = () => {
               </Link>
             </div>
           </div>
+          <div className="col-lg-4">
+            <div className="cyber-single-service bg-white rounded-custom mb-30">
+              <div className="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
+                <i className="far fa-chart-pie"></i>
+              </div>
+              <div className="cyber feature-info-wrap">
+                <h3 className="h5">Business Analysis – Product Analysis</h3>
+                <p>
+                  Randomised words which don't look even passage of Lorem Ipsum.
+                  You need to be Lorem Ipsum randomised even .
+                </p>
+              </div>
+              <Link
+                to="/single-service"
+                className="link-with-icon text-decoration-none"
+              >
+                Explore More <i className="far fa-arrow-right"></i>
+              </Link>
+            </div>
+          </div>
+          <div className="col-lg-4">
+            <div className="cyber-single-service bg-white rounded-custom mb-30">
+              <div className="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
+                <i className="far fa-search-dollar"></i>
+              </div>
+              <div className="cyber feature-info-wrap">
+                <h3 className="h5">Marketplaces Consulting</h3>
+                <p>
+                  Randomised words which don't look even passage of Lorem Ipsum.
+                  You need to be Lorem Ipsum randomised even .
+                </p>
+              </div>
+              <Link
+                to="/single-service"
+                className="link-with-icon text-decoration-none"
+              >
+                Explore More <i className="far fa-arrow-right"></i>
+              </Link>
+            </div>
+          </div>
+          <div className="col-lg-4">
+            <div className="cyber-single-service bg-white rounded-custom mb-30">
+              <div className="feature-icon pb-5 rounded bg-primary-soft text-primary mb-4">
+                <i className="far fa-address-card "></i>
+              </div>
+              <div className="cyber feature-info-wrap">
+                <h3 className="h5">Integrations</h3>
+                <p>
+                  Randomised words which don't look even passage of Lorem Ipsum.
+                  You need to be Lorem Ipsum randomised even .
+                </p>
+              </div>
+              <Link
+                to="/single-service"
+                className="link-with-icon text-decoration-none"
+              >
+                Explore More <i className="far fa-arrow-right"></i>
+              </Link>
+            </div>
+          </div>
+       
         </div>
       </div>
     </section>

@@ -9,6 +9,7 @@ import Products from "../../components/yousef_compoments/Products";
 import WorkProcessTwo from "../../components/work-process/WorkProcessTwo";
 import CtaThree from "../../components/cta/CtaThree";
 import IntegrationOne from "../../components/integration/IntegrationOne";
+import IntegrationTwo from "../../components/integration/IntegrationTwo";
 const HomeNine = () => {
   return (
     <Layout>
@@ -16,10 +17,11 @@ const HomeNine = () => {
       <Navbar  />
       <HeroNine />
       <CyberService />
-      <CtaTwo />
+
       <CtaThree /> 
       <WorkProcessTwo/>
       <IntegrationOne/>
+      <IntegrationTwo />
       <Products />
       <FooterOne footerLight />
     </Layout>

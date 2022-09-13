@@ -1,6 +1,7 @@
 import React from 'react';
 
 const WorkProcessTwo = () => {
+  console.log("Workprocess");
   return (
     <>
       <section className='work-process ptb-120 bg-dark text-white'>

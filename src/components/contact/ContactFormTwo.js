@@ -14,55 +14,54 @@ const ContactFormTwo = () => {
           <div className='row justify-content-lg-between align-items-center'>
             <div className='col-lg-6 col-md-8'>
               <div className='section-heading'>
-                <h2>Talk to Our Sales & Marketing Department Team</h2>
+                <h2>Let's go! Let's assess everything jointly.</h2>
                 <p>
-                  Collaboratively promote client-focused convergence vis-a-vis
-                  customer directed alignments via standardized infrastructures.
+                You are welcome to discuss your project or your needs with us. We can collaborate with you to put the best possible solutions into action.
                 </p>
               </div>
               <form action='#' className='register-form'>
                 <div className='row'>
                   <div className='col-sm-6'>
-                    <label htmlFor='firstName' className='mb-1'>
-                      First name <span className='text-danger'>*</span>
+                    <label htmlFor='FullName' className='mb-1'>
+                      Full Name <span className='text-danger'>*</span>
                     </label>
                     <div className='input-group mb-3'>
                       <input
                         type='text'
                         className='form-control'
-                        id='firstName'
+                        id='Full Name'
                         required
-                        placeholder='First name'
-                        aria-label='First name'
+                        placeholder='Full Name'
+                        aria-label='Full Name'
                       />
                     </div>
                   </div>
                   <div className='col-sm-6 '>
-                    <label htmlFor='lastName' className='mb-1'>
-                      Last name
+                    <label htmlFor='CompanyName' className='mb-1'>
+                      Company Name
                     </label>
                     <div className='input-group mb-3'>
                       <input
                         type='text'
                         className='form-control'
-                        id='lastName'
-                        placeholder='Last name'
-                        aria-label='Last name'
+                        id='CompanyName'
+                        placeholder='Company Name'
+                        aria-label='Company Name'
                       />
                     </div>
                   </div>
                   <div className='col-sm-6'>
-                    <label htmlFor='phone' className='mb-1'>
-                      Phone <span className='text-danger'>*</span>
+                    <label htmlFor='Contact Number' className='mb-1'>
+                    Contact Number <span className='text-danger'>*</span>
                     </label>
                     <div className='input-group mb-3'>
                       <input
                         type='text'
                         className='form-control'
-                        id='phone'
+                        id='Contact Number'
                         required
-                        placeholder='Phone'
-                        aria-label='Phone'
+                        placeholder='Contact Number'
+                        aria-label='Contact Number'
                       />
                     </div>
                   </div>
@@ -90,14 +89,15 @@ const ContactFormTwo = () => {
                         className='form-control'
                         id='yourMessage'
                         required
-                        placeholder='How can we help you?'
+                        placeholder='
+                        Can you inform us about your project or your needs?'
                         style={{ height: '120px' }}
                       ></textarea>
                     </div>
                   </div>
                 </div>
                 <button type='submit' className='btn btn-primary mt-4'>
-                  Get in Touch
+                Send
                 </button>
               </form>
             </div>

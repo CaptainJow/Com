@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import { FaInstagram , FaTwitter , FaGithub } from 'react-icons/fa';
+
+import "./footer_css.css" ; 
 const FooterOne = ({ footerLight, style, footerGradient }) => {
   return (
     <>
@@ -13,10 +15,10 @@ const FooterOne = ({ footerLight, style, footerGradient }) => {
           style={style}
         >
           <div className='container'>
-            <div className='row justify-content-between'>
-              <div className='col-md-8 col-lg-4 mb-md-4 mb-lg-0'>
+            <div className='row justify-content-center'>
+              <div className='col-sm'>
                 <div className='footer-single-col'>
-                  <div className='footer-single-col mb-4'>
+                  <div className='footer-single-col mb-6'>
        
                    <img
                     //  src='assets/img/shams-logo.png'
@@ -37,150 +39,24 @@ const FooterOne = ({ footerLight, style, footerGradient }) => {
               
                 </div>
               </div>
-              <div className='col-md-12 col-lg-7 mt-4 mt-md-0 mt-lg-0'>
+              <div className='col-md-6 col-lg-6 '>
                 <div className='row'>
-                  <div className='col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0'>
-                    <div className='footer-single-col'>
-                      <h3>Primary Pages</h3>
-                      <ul className='list-unstyled footer-nav-list mb-lg-0'>
-                        <li>
-                          <Link to='/' className='text-decoration-none'>
-                            Home
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to='/about-us' className='text-decoration-none'>
-                            About Us
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to='/services' className='text-decoration-none'>
-                            Services
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to='/career' className='text-decoration-none'>
-                            Career
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            to='/integrations'
-                            className='text-decoration-none'
-                          >
-                            Integrations
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            to='/integration-single'
-                            className='text-decoration-none'
-                          >
-                            Integration Single
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className='col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0'>
-                    <div className='footer-single-col'>
-                      <h3>Pages</h3>
-                      <ul className='list-unstyled footer-nav-list mb-lg-0'>
-                        <li>
-                          <Link to='/pricing' className='text-decoration-none'>
-                            Pricing
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to='/blogs' className='text-decoration-none'>
-                            Blog
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            to='/blog-single'
-                            className='text-decoration-none'
-                          >
-                            Blog Details
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            to='/contact-us'
-                            className='text-decoration-none'
-                          >
-                            Contact
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            to='/career-single'
-                            className='text-decoration-none'
-                          >
-                            Career Single
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            to='/single-service'
-                            className='text-decoration-none'
-                          >
-                            Services Single
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className='col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0'>
-                    <div className='footer-single-col'>
-                      <h3>Template</h3>
-                      <ul className='list-unstyled footer-nav-list mb-lg-0'>
-                        <li>
-                          <Link
-                            to='/contact-us'
-                            className='text-decoration-none'
-                          >
-                            Contact
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            to='/help-center'
-                            className='text-decoration-none'
-                          >
-                            Support
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            to='/help-center-single'
-                            className='text-decoration-none'
-                          >
-                            Support Single
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            to='/coming-soon'
-                            className='text-decoration-none'
-                          >
-                            Coming Soon
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to='/login' className='text-decoration-none'>
-                            User Login
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                            to='/career-single'
-                            className='text-decoration-none'
-                          >
-                            Career Single
-                          </Link>
-                        </li>
-                      </ul>
+              
+                  <div className='col-sm'>
+                    <div className=''>
+                  
+                      <div className='col-md-6 col-lg-6 col-xl-6 mx-auto mb-md-0 mb-4 footer-single-col'>
+                      <h3> Ankara Office</h3>
+                      <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
+                      <p ><i className="fas fa-home me-3 text-secondary"></i> Ostim Prestij Blokları 100.Yıl Bulvarı, No:55B/16 Ostim, Yenimahalle/Ankara</p>
+                      <p>
+                        <i className="fas fa-envelope me-3 text-secondary"></i>
+                        hello@shamssoftware.com
+                      </p>
+                      <p><i className="fas fa-phone me-3 text-secondary"></i> +90 543 593 54 53</p>
+        
+                
+                      </div>
                     </div>
                   </div>
                 </div>

@@ -14,7 +14,7 @@ const CtaTwo = () => {
             <div className='col-lg-8 col-md-10'>
               <div className='subscribe-info-wrap text-center position-relative z-2'>
                 <SectionTitle
-                  subtitle="Let's Try! Get Free Support"
+                  subtitle=""
                   title='We Help you Stay Connected'
                   description='We can help you to create your dream website for better
                     business revenue.'

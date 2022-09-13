@@ -7,6 +7,7 @@ import { useTranslation } from "react-i18next";
 const HeroNine = () => {
   const { t, i18n } = useTranslation();
   const [isOpen, setOpen] = useState(false);
+ console.log("heroNine");
   return (
     <>
       <section
@@ -25,32 +26,7 @@ const HeroNine = () => {
                    global market and produces products and projects with a team specialized in certain fields.'
                 />
               
-                <div className='row justify-content-lg-start mt-60'>
-                  <h6 className='text-white-70 mb-2'>
-                    Trusted By Big Clients :
-                  </h6>
-                  <div className='col-4 col-sm-3 my-2 ps-lg-0 img-logo-clients'>
-                    <img
-                      src='assets/img/n11.png'
-                      alt='client'
-                      className='logo-fit'
-                    />
-                  </div>
-                  <div className='col-4 col-sm-3 my-2 img-logo-clients'>
-                    <img
-                      src='assets/img/trendyol.png'
-                      alt='client'
-                      className='logo-fit'
-                    />
-                  </div>
-                  <div className='col-4 col-sm-3 my-2 img-logo-clients'>
-                    <img
-                      src='assets/img/clients/amazon_logo.svg'
-                      alt='client'
-                      className='logo-fit2'
-                    />
-                  </div>
-                </div>
+                
               </div>
             </div>
             <div className='col-lg-6 col-md-8 mt-5'>

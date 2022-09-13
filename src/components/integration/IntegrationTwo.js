@@ -11,8 +11,8 @@ const IntegrationTwo = () => {
           <div className='row align-items-center justify-content-lg-between'>
             <div className='col-lg-6 col-md-12'>
               <SectionTitle
-                subtitle='Integration'
-                title='We Collaborate with Top Software Company'
+                subtitle=''
+                title='Our Partners'
                 description='  Dynamically pursue convergence rather than 24/7 process
                   improvements develop end-to-end customer service action items.'
                 leftAlign
@@ -21,7 +21,7 @@ const IntegrationTwo = () => {
             <div className='col-lg-4 col-md-12'>
               <div className='text-lg-end mb-5 mb-lg-0' data-aos='fade-left'>
                 <Link to='/integrations' className='btn btn-primary'>
-                  View All Integrations
+                  View All Partners
                 </Link>
               </div>
             </div>

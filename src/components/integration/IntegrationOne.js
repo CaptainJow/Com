@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import './integration.css'  ;
 const IntegrationOne = () => {
   return (
     <>
@@ -17,9 +17,9 @@ const IntegrationOne = () => {
                   title='Your Brand Name'
                 >
                   <img
-                    src='assets/img/integations/1.png'
+                    src='assets/img/integations/shopify.svg'
                     alt='integration'
-                    className='img-fluid rounded-circle'
+                    className='rounded-circle fit'
                   />
                 </a>
                 <a
@@ -30,9 +30,9 @@ const IntegrationOne = () => {
                   title='Your Brand Name'
                 >
                   <img
-                    src='assets/img/integations/2.png'
+                    src='assets/img/integations/hepsiburada-logo.svg'
                     alt='integration'
-                    className='img-fluid rounded-circle'
+                    className='rounded-circle fit'
                   />
                 </a>
                 <a
@@ -43,9 +43,9 @@ const IntegrationOne = () => {
                   title='Your Brand Name'
                 >
                   <img
-                    src='assets/img/integations/3.png'
+                    src='assets/img/integations/ideasoft-logo-transparent.png'
                     alt='integration'
-                    className='img-fluid rounded-circle'
+                    className='rounded-circle fit'
                   />
                 </a>
 
@@ -57,9 +57,9 @@ const IntegrationOne = () => {
                   title='Your Brand Name'
                 >
                   <img
-                    src='assets/img/integations/4.png'
+                    src='assets/img/n11.png'
                     alt='integration'
-                    className='img-fluid rounded-circle'
+                    className='rounded-circle fit'
                   />
                 </a>
                 <a
@@ -70,9 +70,9 @@ const IntegrationOne = () => {
                   title='Your Brand Name'
                 >
                   <img
-                    src='assets/img/integations/5.png'
+                    src='assets/img/integations/amazon-logo-transparent.png'
                     alt='integration'
-                    className='img-fluid rounded-circle'
+                    className='rounded-circle fit'
                   />
                 </a>
                 <a
@@ -83,9 +83,9 @@ const IntegrationOne = () => {
                   title='Your Brand Name'
                 >
                   <img
-                    src='assets/img/integations/6.png'
+                    src='assets/img/integations/trendyol-logo-transparent.png'
                     alt='integration'
-                    className='img-fluid rounded-circle'
+                    className='rounded-circle fit'
                   />
                 </a>
               </div>
@@ -110,9 +110,9 @@ const IntegrationOne = () => {
                     title='Your Brand Name'
                   >
                     <img
-                      src='assets/img/integations/7.png'
+                      src='assets/img/integations/bitbucket-transparent.png'
                       alt='integration'
-                      className='img-fluid rounded-circle'
+                      className='rounded-circle fit'
                     />
                   </a>
                   <a
@@ -123,9 +123,9 @@ const IntegrationOne = () => {
                     title='Your Brand Name'
                   >
                     <img
-                      src='assets/img/integations/8.png'
+                      src='assets/img/integations/google-workspace-transparent.png'
                       alt='integration'
-                      className='img-fluid rounded-circle'
+                      className='rounded-circle fit'
                     />
                   </a>
                   <a
@@ -136,9 +136,9 @@ const IntegrationOne = () => {
                     title='Your Brand Name'
                   >
                     <img
-                      src='assets/img/integations/9.png'
+                      src='assets/img/integations/iyzico-transparent.png'
                       alt='integration'
-                      className='img-fluid rounded-circle'
+                      className='rounded-circle fit'
                     />
                   </a>
 
@@ -150,9 +150,9 @@ const IntegrationOne = () => {
                     title='Your Brand Name'
                   >
                     <img
-                      src='assets/img/integations/10.png'
+                      src='assets/img/integations/jira-logo-transparent.png'
                       alt='integration'
-                      className='img-fluid rounded-circle'
+                      className='rounded-circle fit'
                     />
                   </a>
                   <a
@@ -163,9 +163,9 @@ const IntegrationOne = () => {
                     title='Your Brand Name'
                   >
                     <img
-                      src='assets/img/integations/11.png'
+                      src='assets/img/integations/PttAvm-logo-transparent.png'
                       alt='integration'
-                      className='img-fluid rounded-circle'
+                      className='rounded-circle fit'
                     />
                   </a>
                   <a
@@ -176,9 +176,9 @@ const IntegrationOne = () => {
                     title='Your Brand Name'
                   >
                     <img
-                      src='assets/img/integations/12.png'
+                      src='assets/img/integations/ticimax-logo-transparent.jpg'
                       alt='integration'
-                      className='img-fluid rounded-circle'
+                      className='rounded-circle fit'
                     />
                   </a>
                 </div>
@@ -194,13 +194,13 @@ const IntegrationOne = () => {
                 <div className='position-relative connected-app-content'>
                   <div className='integration-logo bg-custom-light rounded-circle p-2 d-inline-block'>
                     <img
-                      src='assets/img/integations/4.png'
+                      src='assets/img/integations/trendyol-logo-transparent.png'
                       width='40'
                       alt='integration'
-                      className='img-fluid'
+                      className='img-fluid fit'
                     />
                   </div>
-                  <h5>Google Drive</h5>
+                  <h5>Trendyol</h5>
                   <p className='mb-0 text-body'>
                     Competently generate unique e-services and client-based
                     models. Globally engage tactical niche
@@ -220,13 +220,13 @@ const IntegrationOne = () => {
                 <div className='position-relative connected-app-content'>
                   <div className='integration-logo bg-custom-light rounded-circle p-2 d-inline-block'>
                     <img
-                      src='assets/img/integations/9.png'
+                      src='assets/img/n11.png'
                       width='40'
                       alt='integration'
-                      className='img-fluid'
+                      className='img-fluid fit'
                     />
                   </div>
-                  <h5>Google Drive</h5>
+                  <h5>N11.com</h5>
                   <p className='mb-0 text-body'>
                     Globally engage tactical niche markets rather than
                     client-based competently generate services

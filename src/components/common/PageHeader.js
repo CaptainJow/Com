@@ -45,7 +45,7 @@ const PageHeader = ({ title, desc, integration, blogtags }) => {
         </section>
       ) : (
         <section
-          className='page-header position-relative overflow-hidden ptb-120 color-img'
+          className=' page-header position-relative overflow-hidden ptb-120 color-img'
   
         >
           <div className='container'>
