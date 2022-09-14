@@ -1,5 +1,4 @@
 import PageMeta from "../../components/common/PageMeta";
-import CtaTwo from "../../components/cta/CtaTwo";
 import FooterOne from "../../layout/Footer/FooterOne";
 import CyberService from "../../components/services/CyberService";
 import Navbar from "../../layout/Header/Navbar";

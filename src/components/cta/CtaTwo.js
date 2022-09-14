@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import ModalVideo from 'react-modal-video';
 import SectionTitle from '../common/SectionTitle';
 
 const CtaTwo = () => {
-  const [isOpen, setOpen] = useState(false);
 
   return (
     <>
