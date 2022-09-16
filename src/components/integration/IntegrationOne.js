@@ -14,11 +14,11 @@ const IntegrationOne = () => {
                   className='integration-1'
                   data-bs-toggle='tooltip'
                   data-bs-placement='top'
-                  title='Your Brand Name'
+                  title='Shopify'
                 >
                   <img
                     src='assets/img/integations/shopify.svg'
-                    alt='integration'
+                    alt='Shopify'
                     className='rounded-circle fit'
                   />
                 </a>
@@ -27,11 +27,11 @@ const IntegrationOne = () => {
                   className='integration-2'
                   data-bs-toggle='tooltip'
                   data-bs-placement='top'
-                  title='Your Brand Name'
+                  title='Hepsiburada'
                 >
                   <img
                     src='assets/img/integations/hepsiburada-logo.svg'
-                    alt='integration'
+                    alt='Hepsiburada'
                     className='rounded-circle fit'
                   />
                 </a>
@@ -40,11 +40,11 @@ const IntegrationOne = () => {
                   className='integration-3'
                   data-bs-toggle='tooltip'
                   data-bs-placement='top'
-                  title='Your Brand Name'
+                  title='ideasoft'
                 >
                   <img
                     src='assets/img/integations/ideasoft-logo-transparent.png'
-                    alt='integration'
+                    alt='ideasoft'
                     className='rounded-circle fit'
                   />
                 </a>
@@ -54,11 +54,11 @@ const IntegrationOne = () => {
                   className='integration-4'
                   data-bs-toggle='tooltip'
                   data-bs-placement='top'
-                  title='Your Brand Name'
+                  title='N11'
                 >
                   <img
                     src='assets/img/n11.png'
-                    alt='integration'
+                    alt='n11'
                     className='rounded-circle fit'
                   />
                 </a>
@@ -67,11 +67,11 @@ const IntegrationOne = () => {
                   className='integration-5'
                   data-bs-toggle='tooltip'
                   data-bs-placement='top'
-                  title='Your Brand Name'
+                  title='Amazon'
                 >
                   <img
                     src='assets/img/integations/amazon-logo-transparent.png'
-                    alt='integration'
+                    alt='Amazon'
                     className='rounded-circle fit'
                   />
                 </a>
@@ -80,11 +80,11 @@ const IntegrationOne = () => {
                   className='integration-6'
                   data-bs-toggle='tooltip'
                   data-bs-placement='top'
-                  title='Your Brand Name'
+                  title='Trendyol'
                 >
                   <img
                     src='assets/img/integations/trendyol-logo-transparent.png'
-                    alt='integration'
+                    alt='trendyol'
                     className='rounded-circle fit'
                   />
                 </a>
@@ -107,11 +107,11 @@ const IntegrationOne = () => {
                     className='integration-7'
                     data-bs-toggle='tooltip'
                     data-bs-placement='top'
-                    title='Your Brand Name'
+                    title='Bitbucket'
                   >
                     <img
                       src='assets/img/integations/bitbucket-transparent.png'
-                      alt='integration'
+                      alt='bitbucket'
                       className='rounded-circle fit'
                     />
                   </a>
@@ -120,11 +120,11 @@ const IntegrationOne = () => {
                     className='integration-8'
                     data-bs-toggle='tooltip'
                     data-bs-placement='top'
-                    title='Your Brand Name'
+                    title='Google Workspace'
                   >
                     <img
                       src='assets/img/integations/google-workspace-transparent.png'
-                      alt='integration'
+                      alt='google-workspace'
                       className='rounded-circle fit'
                     />
                   </a>
@@ -133,11 +133,11 @@ const IntegrationOne = () => {
                     className='integration-9'
                     data-bs-toggle='tooltip'
                     data-bs-placement='top'
-                    title='Your Brand Name'
+                    title='iyzico'
                   >
                     <img
                       src='assets/img/integations/iyzico-transparent.png'
-                      alt='integration'
+                      alt='iyzico'
                       className='rounded-circle fit'
                     />
                   </a>
@@ -147,11 +147,11 @@ const IntegrationOne = () => {
                     className='integration-10'
                     data-bs-toggle='tooltip'
                     data-bs-placement='top'
-                    title='Your Brand Name'
+                    title='Jira Software'
                   >
                     <img
                       src='assets/img/integations/jira-logo-transparent.png'
-                      alt='integration'
+                      alt='Jira'
                       className='rounded-circle fit'
                     />
                   </a>
@@ -160,11 +160,11 @@ const IntegrationOne = () => {
                     className='integration-11'
                     data-bs-toggle='tooltip'
                     data-bs-placement='top'
-                    title='Your Brand Name'
+                    title='PttAvm'
                   >
                     <img
                       src='assets/img/integations/PttAvm-logo-transparent.png'
-                      alt='integration'
+                      alt='PttAvm'
                       className='rounded-circle fit'
                     />
                   </a>
@@ -173,11 +173,11 @@ const IntegrationOne = () => {
                     className='integration-12'
                     data-bs-toggle='tooltip'
                     data-bs-placement='top'
-                    title='Your Brand Name'
+                    title='Ticimax'
                   >
                     <img
                       src='assets/img/integations/ticimax-logo-transparent.jpg'
-                      alt='integration'
+                      alt='Ticimax'
                       className='rounded-circle fit'
                     />
                   </a>
@@ -196,7 +196,7 @@ const IntegrationOne = () => {
                     <img
                       src='assets/img/integations/trendyol-logo-transparent.png'
                       width='40'
-                      alt='integration'
+                      alt='trendyol'
                       className='img-fluid fit'
                     />
                   </div>

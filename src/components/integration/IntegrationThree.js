@@ -16,13 +16,13 @@ const IntegrationThree = () => {
                   <div className='position-relative connected-app-content'>
                     <div className='integration-logo bg-white rounded-circle p-2 d-inline-block'>
                       <img
-                        src='assets/img/integations/1.png'
+                        src='assets/img/integations/shopify.svg'
                         width='40'
-                        alt='integration'
-                        className='img-fluid'
+                        alt='shopify'
+                        className='img-fluid fit'
                       />
                     </div>
-                    <h5>Google Drive</h5>
+                    <h5>Shopify</h5>
                     <p className='mb-0 text-muted'>
                       Globally engage tactical niche markets rather than
                       client-based competently generate unique e-services
@@ -38,13 +38,13 @@ const IntegrationThree = () => {
                   <div className='position-relative connected-app-content'>
                     <div className='integration-logo bg-white rounded-circle p-2 d-inline-block'>
                       <img
-                        src='assets/img/integations/2.png'
+                        src='assets/img/integations/hepsiburada-logo.svg'
                         width='40'
-                        alt='integration'
-                        className='img-fluid'
+                        alt='hepsiburada'
+                        className='img-fluid fit'
                       />
                     </div>
-                    <h5>Google Drive</h5>
+                    <h5>Hepsiburada</h5>
                     <p className='mb-0 text-muted'>
                       Globally engage tactical niche markets rather than
                       client-based competently generate unique e-services
@@ -63,13 +63,13 @@ const IntegrationThree = () => {
                   <div className='position-relative connected-app-content'>
                     <div className='integration-logo bg-white rounded-circle p-2 d-inline-block'>
                       <img
-                        src='assets/img/integations/3.png'
+                        src='assets/img/integations/ideasoft-logo-transparent.png'
                         width='40'
-                        alt='integration'
-                        className='img-fluid'
+                        alt='ideasoft'
+                        className='img-fluid fit'
                       />
                     </div>
-                    <h5>Google Drive</h5>
+                    <h5>Ideasoft</h5>
                     <p className='mb-0 text-muted'>
                       Globally engage tactical niche markets rather than
                       client-based competently generate unique e-services
@@ -88,13 +88,13 @@ const IntegrationThree = () => {
                   <div className='position-relative connected-app-content'>
                     <div className='integration-logo bg-white rounded-circle p-2 d-inline-block'>
                       <img
-                        src='assets/img/integations/4.png'
+                        src='assets/img/n11.png'
                         width='40'
-                        alt='integration'
-                        className='img-fluid'
+                        alt='n11'
+                        className='img-fluid fit'
                       />
                     </div>
-                    <h5>Google Drive</h5>
+                    <h5>N11</h5>
                     <p className='mb-0 text-muted'>
                       Globally engage tactical niche markets rather than
                       client-based competently generate unique e-services
@@ -113,13 +113,13 @@ const IntegrationThree = () => {
                   <div className='position-relative connected-app-content'>
                     <div className='integration-logo bg-white rounded-circle p-2 d-inline-block'>
                       <img
-                        src='assets/img/integations/5.png'
+                        src='assets/img/integations/amazon-logo-transparent.png'
                         width='40'
-                        alt='integration'
-                        className='img-fluid'
+                        alt='Amazon'
+                        className='img-fluid fit'
                       />
                     </div>
-                    <h5>Google Drive</h5>
+                    <h5>Amazon</h5>
                     <p className='mb-0 text-muted'>
                       Globally engage tactical niche markets rather than
                       client-based competently generate unique e-services
@@ -138,13 +138,13 @@ const IntegrationThree = () => {
                   <div className='position-relative connected-app-content'>
                     <div className='integration-logo bg-white rounded-circle p-2 d-inline-block'>
                       <img
-                        src='assets/img/integations/6.png'
+                        src='assets/img/integations/trendyol-logo-transparent.png'
                         width='40'
-                        alt='integration'
-                        className='img-fluid'
+                        alt='Trendyol'
+                        className='img-fluid fit'
                       />
                     </div>
-                    <h5>Google Drive</h5>
+                    <h5>Trendyol</h5>
                     <p className='mb-0 text-muted'>
                       Globally engage tactical niche markets rather than
                       client-based competently generate unique e-services
@@ -160,13 +160,13 @@ const IntegrationThree = () => {
                   <div className='position-relative connected-app-content'>
                     <div className='integration-logo bg-white rounded-circle p-2 d-inline-block'>
                       <img
-                        src='assets/img/integations/7.png'
+                        src='assets/img/integations/bitbucket-transparent.png'
                         width='40'
-                        alt='integration'
-                        className='img-fluid'
+                        alt='BitBucket'
+                        className='img-fluid fit'
                       />
                     </div>
-                    <h5>Google Drive</h5>
+                    <h5>BitBucket</h5>
                     <p className='mb-0 text-muted'>
                       Globally engage tactical niche markets rather than
                       client-based competently generate unique e-services
@@ -182,13 +182,13 @@ const IntegrationThree = () => {
                   <div className='position-relative connected-app-content'>
                     <div className='integration-logo bg-white rounded-circle p-2 d-inline-block'>
                       <img
-                        src='assets/img/integations/8.png'
+                        src='assets/img/integations/google-workspace-transparent.png'
                         width='40'
-                        alt='integration'
-                        className='img-fluid'
+                        alt='Google Workspace'
+                        className='img-fluid fit'
                       />
                     </div>
-                    <h5>Google Drive</h5>
+                    <h5>Google Workspace</h5>
                     <p className='mb-0 text-muted'>
                       Globally engage tactical niche markets rather than
                       client-based competently generate unique e-services
@@ -204,13 +204,13 @@ const IntegrationThree = () => {
                   <div className='position-relative connected-app-content'>
                     <div className='integration-logo bg-white rounded-circle p-2 d-inline-block'>
                       <img
-                        src='assets/img/integations/9.png'
+                        src='assets/img/integations/iyzico-transparent.png'
                         width='40'
-                        alt='integration'
-                        className='img-fluid'
+                        alt='iyzico'
+                        className='img-fluid fit'
                       />
                     </div>
-                    <h5>Google Drive</h5>
+                    <h5>iyzico</h5>
                     <p className='mb-0 text-muted'>
                       Globally engage tactical niche markets rather than
                       client-based competently generate unique e-services
@@ -219,6 +219,72 @@ const IntegrationThree = () => {
                   <span className='badge position-absolute integration-badge bg-warning-soft px-3 py-2 text-warning'>
                     Popular
                   </span>
+                </Link>
+              </div>
+              <div className='col-lg-4 col-md-6'>
+                <Link
+                  to='/integration-single'
+                  className='position-relative text-decoration-none connected-app-single bg-white border border-2 bg-white mt-4 transition-base rounded-custom d-block overflow-hidden p-5'
+                >
+                  <div className='position-relative connected-app-content'>
+                    <div className='integration-logo bg-white rounded-circle p-2 d-inline-block'>
+                      <img
+                        src='assets/img/integations/PttAvm-logo-transparent.png'
+                        width='40'
+                        alt='PttAvm'
+                        className='img-fluid fit'
+                      />
+                    </div>
+                    <h5>PttAvm</h5>
+                    <p className='mb-0 text-muted'>
+                      Globally engage tactical niche markets rather than
+                      client-based competently generate unique e-services
+                    </p>
+                  </div>
+                </Link>
+              </div>
+              <div className='col-lg-4 col-md-6'>
+                <Link
+                  to='/integration-single'
+                  className='position-relative text-decoration-none connected-app-single bg-white border border-2 bg-white mt-4 transition-base rounded-custom d-block overflow-hidden p-5'
+                >
+                  <div className='position-relative connected-app-content'>
+                    <div className='integration-logo bg-white rounded-circle p-2 d-inline-block'>
+                      <img
+                        src='assets/img/integations/ticimax-logo-transparent.jpg'
+                        width='40'
+                        alt='ticimax'
+                        className='img-fluid fit'
+                      />
+                    </div>
+                    <h5>ticimax</h5>
+                    <p className='mb-0 text-muted'>
+                      Globally engage tactical niche markets rather than
+                      client-based competently generate unique e-services
+                    </p>
+                  </div>
+                </Link>
+              </div>
+              <div className='col-lg-4 col-md-6'>
+                <Link
+                  to='/integration-single'
+                  className='position-relative text-decoration-none connected-app-single bg-white border border-2 bg-white mt-4 transition-base rounded-custom d-block overflow-hidden p-5'
+                >
+                  <div className='position-relative connected-app-content'>
+                    <div className='integration-logo bg-white rounded-circle p-2 d-inline-block'>
+                      <img
+                        src='assets/img/integations/jira-logo-transparent.png'
+                        width='40'
+                        alt='Jira'
+                        className='img-fluid fit'
+                      />
+                    </div>
+                    <h5>Jira Software</h5>
+                    <p className='mb-0 text-muted'>
+                      Globally engage tactical niche markets rather than
+                      client-based competently generate unique e-services
+                    </p>
+                  </div>
                 </Link>
               </div>
             </div>

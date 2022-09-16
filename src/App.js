@@ -7,7 +7,7 @@ import "swiper/components/navigation/navigation.min.css";
 
 //Modal Video
 
-
+import './app.css' ; 
 const App = () => {
   return (
     <>

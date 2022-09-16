@@ -1,17 +1,14 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import ModalVideo from 'react-modal-video';
 import HeroTitle from '../../components/common/HeroTitle';
 import './HeroNine.css' ;
 import { useTranslation } from "react-i18next";
 const HeroNine = () => {
   const { t, i18n } = useTranslation();
   const [isOpen, setOpen] = useState(false);
- console.log("heroNine");
   return (
     <>
       <section
-        className='hero-section ptb-120 text-white bg-gradient'
+        className='hero-section ptb-100 text-white bg-gradient'
         style={{
           background: "url('assets/img/hero-dot-bg.png')no-repeat center right",
         }}
@@ -21,12 +18,9 @@ const HeroNine = () => {
             <div className='col-lg-6 col-md-10'>
               <div className='hero-content-wrap mt-5'>
                 <HeroTitle
-                  title='ShamsSoftware'
-                  desc='Shams software company has a structure that offers end-to-end solutions to its customers in the
-                   global market and produces products and projects with a team specialized in certain fields.'
-                />
-              
-                
+                  title='Shams Software'
+                  desc1="In a connected world with apps, maintain your company's efficiency and competitiveness." 
+                  desc2=" We offer specialized software applications, SaaS products, data integrations, and workflow solutions to enhance your organization and give you more time to focus on what really matters."/>
               </div>
             </div>
             <div className='col-lg-6 col-md-8 mt-5'>

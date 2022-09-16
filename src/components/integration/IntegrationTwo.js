@@ -37,17 +37,17 @@ const IntegrationTwo = () => {
                         alt='integration'
                         className='img-fluid fit'
                       />
-                      <h6 className='mb-0 mt-4'>Brand Name</h6>
+                      <h6 className='mb-0 mt-4'>EDM Bilişim</h6>
                     </div>
                   </li>
                   <li data-aos='fade-up' data-aos-delay='50'>
                     <div className='single-integration'>
                       <img
-                        src='assets/img/partners/edm-bilisim-logo.svg'
+                        src='assets/img/partners/uyumsoft.png'
                         alt='integration'
                         className='img-fluid fit'
                       />
-                      <h6 className='mb-0 mt-4'>Brand Name</h6>
+                      <h6 className='mb-0 mt-4'>uyumsoft</h6>
                     </div>
                   </li>
                   <li data-aos='fade-up' data-aos-delay='50'>
@@ -57,7 +57,8 @@ const IntegrationTwo = () => {
                         alt='integration'
                         className='img-fluid fit'
                       />
-                      <h6 className='mb-0 mt-4'>Brand Name</h6>
+                      <h6 className='mb-0 mt-4'> Ideasoft
+                      </h6>
                     </div>
                   </li>
                   <li data-aos='fade-up' data-aos-delay='50'>
@@ -67,7 +68,7 @@ const IntegrationTwo = () => {
                         alt='integration'
                         className='img-fluid fit'
                       />
-                      <h6 className='mb-0 mt-4'>Brand Name</h6>
+                      <h6 className='mb-0 mt-4'>Koc Sistem</h6>
                     </div>
                   </li>
                   <li data-aos='fade-up' data-aos-delay='50'>
@@ -77,144 +78,82 @@ const IntegrationTwo = () => {
                         alt='integration'
                         className='img-fluid'
                       />
-                      <h6 className='mb-0 mt-4'>Brand Name</h6>
+                      <h6 className='mb-0 mt-4'>People Say</h6>
                     </div>
                   </li>
                   <li data-aos='fade-up' data-aos-delay='50'>
                     <div className='single-integration'>
                       <img
-                        src='assets/img/integations/dropbox-2.png'
+                        src='assets/img/partners/Turkcell-logo.png'
                         alt='integration'
                         className='img-fluid'
                       />
-                      <h6 className='mb-0 mt-4'>Brand Name</h6>
+                      <h6 className='mb-0 mt-4'>Turkcell</h6>
                     </div>
                   </li>
                   <li data-aos='fade-up' data-aos-delay='100'>
                     <div className='single-integration'>
                       <img
-                        src='assets/img/integations/dynamic-365.png'
+                        src='assets/img/partners/QNB-logo.png'
                         alt='integration'
                         className='img-fluid'
                       />
-                      <h6 className='mb-0 mt-4'>Brand Name</h6>
+                      <h6 className='mb-0 mt-4'>QNB</h6>
                     </div>
                   </li>
                   <li data-aos='fade-up' data-aos-delay='100'>
                     <div className='single-integration'>
                       <img
-                        src='assets/img/integations/erecruiter.png'
+                        src='assets/img/partners/foriba.png'
                         alt='integration'
                         className='img-fluid'
                       />
-                      <h6 className='mb-0 mt-4'>Brand Name</h6>
+                      <h6 className='mb-0 mt-4'>Foriba</h6>
                     </div>
                   </li>
                   <li data-aos='fade-up' data-aos-delay='100'>
                     <div className='single-integration'>
                       <img
-                        src='assets/img/integations/evernote.png'
+                        src='assets/img/partners/KOLAYSOFT.png'
                         alt='integration'
                         className='img-fluid'
                       />
-                      <h6 className='mb-0 mt-4'>Brand Name</h6>
+                      <h6 className='mb-0 mt-4'>KOLAYSOFT</h6>
                     </div>
                   </li>
                   <li data-aos='fade-up' data-aos-delay='100'>
                     <div className='single-integration'>
                       <img
-                        src='assets/img/integations/google-icon.png'
+                        src='assets/img/partners/izi.png'
                         alt='integration'
                         className='img-fluid'
                       />
-                      <h6 className='mb-0 mt-4'>Brand Name</h6>
+                      <h6 className='mb-0 mt-4'>izibiz</h6>
                     </div>
                   </li>
 
                   <li data-aos='fade-up' data-aos-delay='100'>
                     <div className='single-integration'>
                       <img
-                        src='assets/img/integations/slack.png'
+                        src='assets/img/partners/digital.png'
                         alt='integration'
                         className='img-fluid'
                       />
-                      <h6 className='mb-0 mt-4'>Brand Name</h6>
+                      <h6 className='mb-0 mt-4'>Digital Planet</h6>
                     </div>
                   </li>
 
                   <li data-aos='fade-up' data-aos-delay='100'>
                     <div className='single-integration'>
                       <img
-                        src='assets/img/integations/google-analytics.png'
+                        src='assets/img/partners/winfluencer.PNG'
                         alt='integration'
                         className='img-fluid'
                       />
-                      <h6 className='mb-0 mt-4'>Brand Name</h6>
+                      <h6 className='mb-0 mt-4'>winfluencer</h6>
                     </div>
                   </li>
 
-                  <li data-aos='fade-up' data-aos-delay='150'>
-                    <div className='single-integration'>
-                      <img
-                        src='assets/img/integations/google-drive.png'
-                        alt='integration'
-                        className='img-fluid'
-                      />
-                      <h6 className='mb-0 mt-4'>Brand Name</h6>
-                    </div>
-                  </li>
-
-                  <li data-aos='fade-up' data-aos-delay='150'>
-                    <div className='single-integration'>
-                      <img
-                        src='assets/img/integations/hubspot.png'
-                        alt='integration'
-                        className='img-fluid'
-                      />
-                      <h6 className='mb-0 mt-4'>Brand Name</h6>
-                    </div>
-                  </li>
-
-                  <li data-aos='fade-up' data-aos-delay='150'>
-                    <div className='single-integration'>
-                      <img
-                        src='assets/img/integations/instagram.png'
-                        alt='integration'
-                        className='img-fluid'
-                      />
-                      <h6 className='mb-0 mt-4'>Brand Name</h6>
-                    </div>
-                  </li>
-                  <li data-aos='fade-up' data-aos-delay='150'>
-                    <div className='single-integration'>
-                      <img
-                        src='assets/img/integations/linkedin.png'
-                        alt='integration'
-                        className='img-fluid'
-                      />
-                      <h6 className='mb-0 mt-4'>Brand Name</h6>
-                    </div>
-                  </li>
-                  <li data-aos='fade-up' data-aos-delay='150'>
-                    <div className='single-integration'>
-                      <img
-                        src='assets/img/integations/mailchimp.png'
-                        alt='integration'
-                        className='img-fluid'
-                      />
-                      <h6 className='mb-0 mt-4'>Brand Name</h6>
-                    </div>
-                  </li>
-                  <li data-aos='fade-up' data-aos-delay='150'>
-                    <div className='single-integration'>
-                      <img
-                        src='assets/img/integations/marekto.png'
-                        alt='integration'
-                        className='img-fluid'
-                      />
-                      <h6 className='mb-0 mt-4'>Brand Name</h6>
-                    </div>
-                  </li>
                 </ul>
               </div>
             </div>

@@ -12,7 +12,7 @@ import IntegrationTwo from "../../components/integration/IntegrationTwo";
 const HomeNine = () => {
   return (
     <Layout>
-      <PageMeta title='ShamsSoftware' />
+      <PageMeta title='Shams Software' />
       <Navbar  />
       <HeroNine />
       <CyberService />
