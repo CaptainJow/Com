@@ -3124,8 +3124,8 @@ li.setup-process-item:not(:last-child):before {
 .integration-list li .single-integration img {
   width: 100%;
   height: auto;
-  max-width: 35px;
-  max-height: 35px;
+  max-width:55px;
+  max-height: 25px;
   margin: auto;
 }
 .integration-list li .single-integration:hover {

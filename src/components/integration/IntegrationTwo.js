@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import './integration.css' ;
 import SectionTitle from '../common/SectionTitle';
 
 const IntegrationTwo = () => {
@@ -33,9 +33,9 @@ const IntegrationTwo = () => {
                   <li data-aos='fade-up' data-aos-delay='50'>
                     <div className='single-integration'>
                       <img
-                        src='assets/img/integations/airbnb.png'
+                        src='assets/img/partners/edmbilisim-transparent.png'
                         alt='integration'
-                        className='img-fluid'
+                        className='img-fluid fit'
                       />
                       <h6 className='mb-0 mt-4'>Brand Name</h6>
                     </div>
@@ -43,9 +43,9 @@ const IntegrationTwo = () => {
                   <li data-aos='fade-up' data-aos-delay='50'>
                     <div className='single-integration'>
                       <img
-                        src='assets/img/integations/figma.png'
+                        src='assets/img/partners/edm-bilisim-logo.svg'
                         alt='integration'
-                        className='img-fluid'
+                        className='img-fluid fit'
                       />
                       <h6 className='mb-0 mt-4'>Brand Name</h6>
                     </div>
@@ -53,9 +53,9 @@ const IntegrationTwo = () => {
                   <li data-aos='fade-up' data-aos-delay='50'>
                     <div className='single-integration'>
                       <img
-                        src='assets/img/integations/facebook.png'
+                        src='assets/img/partners/ideasoft-logo-transparent.png'
                         alt='integration'
-                        className='img-fluid'
+                        className='img-fluid fit'
                       />
                       <h6 className='mb-0 mt-4'>Brand Name</h6>
                     </div>
@@ -63,9 +63,9 @@ const IntegrationTwo = () => {
                   <li data-aos='fade-up' data-aos-delay='50'>
                     <div className='single-integration'>
                       <img
-                        src='assets/img/integations/sales-force.png'
+                        src='assets/img/partners/kocsistem-logo.png'
                         alt='integration'
-                        className='img-fluid'
+                        className='img-fluid fit'
                       />
                       <h6 className='mb-0 mt-4'>Brand Name</h6>
                     </div>
@@ -73,7 +73,7 @@ const IntegrationTwo = () => {
                   <li data-aos='fade-up' data-aos-delay='50'>
                     <div className='single-integration'>
                       <img
-                        src='assets/img/integations/atlassian.png'
+                        src='assets/img/partners/people-say-logo-transparent.png'
                         alt='integration'
                         className='img-fluid'
                       />

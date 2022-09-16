@@ -3,3 +3,8 @@
   height: 64px;
     object-fit: scale-down;
 }
+
+.fit-brands{
+  width: auto;
+  object-fit: fill;
+}
