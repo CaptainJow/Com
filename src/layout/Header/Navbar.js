@@ -68,16 +68,6 @@ useEffect(() => {
               to="/"
               className="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none"
             >
-              <img
-               // src="assets/img/shams-logo.png"
-                //alt="logo"
-                //className="img-fluid logo-white shams-logo"
-              />
-              <img
-              //  src="assets/img/shams-logo.png"
-               // alt="logo"
-               // className="img-fluid logo-color shams-logo"
-              />
               <h5>Shams Software</h5>
             </Link>
 

@@ -20,7 +20,7 @@ const IntegrationTwo = () => {
             </div>
             <div className='col-lg-4 col-md-12'>
               <div className='text-lg-end mb-5 mb-lg-0' data-aos='fade-left'>
-                <Link to='/integrations' className='btn btn-primary'>
+                <Link to='/partners' className='btn btn-primary'>
                   View All Partners
                 </Link>
               </div>

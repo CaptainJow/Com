@@ -18,10 +18,6 @@ const OffCanvasMenu = () => {
     }
 }, [location,]) ;
 const { t, i18n } = useTranslation();
-const changeLanguageHandler = (e) => {
-  const languageValue = e.target.value
-  i18n.changeLanguage(languageValue);
-}
 
 
 useEffect(()=>{

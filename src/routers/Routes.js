@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import HomeSassOne from "../themes/index1/HomeSassOne";
 import HomeSassTwo from "../themes/index2/HomeSassTwo";
 import Services from "../pages/services/Services";
 import SingleService from "../pages/services/SingleService";
@@ -37,6 +36,7 @@ import HomeTwelve from "../themes/index12/HomeTwelve";
 import Fatura_hub from "../pages/product-about/FaturaHub";
 import Element_s from "../pages/product-about/Element/Element_s";
 import ISIL_s from "../pages/product-about/ISIL/ISIL_s";
+import Partners from "../pages/partners/Partners" ; 
 
 class Routes extends Component {
   render() {
@@ -93,6 +93,7 @@ class Routes extends Component {
             <Route exact path ="/faturahub" component={Fatura_hub} />
             <Route exact path ="/element" component={Element_s} />
             <Route excat path ="/ISIL" component={ISIL_s} />
+            <Route excat path ="/partners" component={Partners} />
             <Route
               exact
               path="/integration-single"

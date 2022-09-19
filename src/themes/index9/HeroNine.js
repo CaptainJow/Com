@@ -4,7 +4,6 @@ import './HeroNine.css' ;
 import { useTranslation } from "react-i18next";
 const HeroNine = () => {
   const { t, i18n } = useTranslation();
-  const [isOpen, setOpen] = useState(false);
   return (
     <>
       <section
