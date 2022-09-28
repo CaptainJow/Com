@@ -134,29 +134,29 @@ const FirstPart = () => {
             <div>
             <div class="container ">
             <div class="col-12 col-sm-8">
-    <div class="row">
-      <div class="col-4">black</div>
-      <div class="col-4">black</div>
-      <div class="col-4">black</div>
-    </div>
-    <div class="row">
-      <div class="col-4">black</div>
-      <div class="col-4">black</div>
-      <div class="col-4">black</div>
-    </div>
-    <div class="row">
-      <div class="col-4">black</div>
-      <div class="col-4">black</div>
-      <div class="col-4">black</div>
-    </div>
-  </div>
-  <div class="col-12 col-sm-4 text-danger">
-    <div class="row">
-      	<div class="col-4 col-sm-12">pink</div>
-      	<div class="col-4 col-sm-12">pink</div>
-      	<div class="col-4 col-sm-12">pink</div>
-    </div>
-  </div>
+                <div class="row">
+                <div class="col-4">black</div>
+                <div class="col-4">black</div>
+                <div class="col-4">black</div>
+                </div>
+                <div class="row">
+                <div class="col-4">black</div>
+                <div class="col-4">black</div>
+                <div class="col-4">black</div>
+                </div>
+                <div class="row">
+                <div class="col-4">black</div>
+                <div class="col-4">black</div>
+                <div class="col-4">black</div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 text-danger">
+                <div class="row">
+                    <div class="col-4 col-sm-12">pink</div>
+                    <div class="col-4 col-sm-12">pink</div>
+                    <div class="col-4 col-sm-12">pink</div>
+                </div>
+            </div>
                 </div>
             </div>
             <div>
