@@ -1,0 +1,39 @@
+.Paragraph-web-1{
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+   margin-right: 12%;
+   margin-left: 12%;
+   margin-top: 3rem;
+}
+
+.Paragraph-context-1{
+    font-size: 18px ; 
+    color: black;
+}
+.paragraph-title{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.Paragraph-list{
+    margin-left: 10%;
+    color: black;
+    font-size: 18px ;
+    margin-bottom: 1rem;
+}
+.paragraph-title2{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 35px;
+}
+.paragraph-title3{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 28px;
+}
+.Paragraph-list-context1{
+    margin-left: 4%;
+}
+.a-link{
+    cursor: pointer;
+}

@@ -37,6 +37,7 @@ import Fatura_hub from "../pages/product-about/FaturaHub";
 import Element_s from "../pages/product-about/Element/Element_s";
 import ISIL_s from "../pages/product-about/ISIL/ISIL_s";
 import Partners from "../pages/partners/Partners" ; 
+import WebDevolpment from "../pages/services/WebDevolpment";
 
 class Routes extends Component {
   render() {
@@ -94,6 +95,7 @@ class Routes extends Component {
             <Route exact path ="/element" component={Element_s} />
             <Route excat path ="/ISIL" component={ISIL_s} />
             <Route excat path ="/partners" component={Partners} />
+            <Route exact path="/web-development" component={WebDevolpment} />
             <Route
               exact
               path="/integration-single"

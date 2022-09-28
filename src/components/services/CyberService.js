@@ -46,14 +46,14 @@ const CyberService = () => {
                 <i className="far 	fa-code"></i>
               </div>
               <div className="cyber feature-info-wrap">
-                <h3 className="h5">Software Development</h3>
+                <h3 className="h5">Web Development</h3>
                 <p>
                   Randomised words which don't look even passage of Lorem Ipsum.
                   You need to be Lorem Ipsum randomised even .
                 </p>
               </div>
               <Link
-                to="/single-service"
+                to="/web-development"
                 className="link-with-icon text-decoration-none"
               >
                 Explore More <i className="far fa-arrow-right"></i>
