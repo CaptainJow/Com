@@ -3,18 +3,19 @@ import PageMeta from '../../components/common/PageMeta';
 import FooterOne from '../../layout/Footer/FooterOne';
 import Navbar from '../../layout/Header/Navbar';
 import Layout from '../../layout/Layout';
-import FirstPart from './WebDevComp/FirstPart';
+import Database from './Database';
 import ContactFormTwo from '../../components/contact/ContactFormTwo';
-const WebDevolpment = () => {
+
+const DataBaseServices = () => {
   return (
     <Layout>
-      <PageMeta title='Web Devolpment' />
+      <PageMeta title='DataBase' />
       <Navbar />
-      <FirstPart />
+      <Database />
       <ContactFormTwo />
       <FooterOne footerLight />
     </Layout>
   );
 };
 
-export default WebDevolpment;
+export default DataBaseServices;

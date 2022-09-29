@@ -1,7 +1,7 @@
 import React ,{useState} from 'react';
 import "./stylesWebDev.css" ; 
 
-const FirstPart = () => {
+const Database = () => {
  const [displayParagraph, setDispalyParagraph] = useState(false) ; 
 
  const toggleParagraph = () => {
@@ -133,7 +133,7 @@ const FirstPart = () => {
             </div>
             <div>
             <div class="">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
                 <div class=" col-md-3 col-6 col-code">
                     <img width="32" height="32" src="assets/img/grid/go.svg" alt="GO"/>
@@ -315,7 +315,7 @@ const FirstPart = () => {
                     </div>
                 </div>
             </div>
-                </div>
+            </div>
             </div>
             <div>
                 <h3 className=" fw-bold paragraph-title3" style={ {color:"black" }}>CONCLUSION</h3>
@@ -332,4 +332,4 @@ const FirstPart = () => {
   );
 };
 
-export default FirstPart;
+export default Database;
