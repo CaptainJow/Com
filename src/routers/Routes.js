@@ -39,6 +39,7 @@ import ISIL_s from "../pages/product-about/ISIL/ISIL_s";
 import Partners from "../pages/partners/Partners" ; 
 import WebDevolpment from "../pages/services/WebDevolpment";
 import DataBaseServices from "../pages/services/DataBaseServices";
+import BusinessReportServices from "../pages/services/BusinessReportService";
 
 class Routes extends Component {
   render() {
@@ -98,6 +99,7 @@ class Routes extends Component {
             <Route excat path ="/partners" component={Partners} />
             <Route exact path="/web-development" component={WebDevolpment} />
             <Route exact path="/database" component={DataBaseServices} />
+            <Route exact path="/business-report" component={BusinessReportServices} />
             
             <Route
               exact
