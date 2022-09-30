@@ -4,14 +4,14 @@ import FooterOne from '../../layout/Footer/FooterOne';
 import Navbar from '../../layout/Header/Navbar';
 import Layout from '../../layout/Layout';
 import FirstPart from './WebDevComp/FirstPart';
-import ContactFormTwo from '../../components/contact/ContactFormTwo';
+import ContactFormFour from '../../components/contact/ContactFormFour';
 const WebDevolpment = () => {
   return (
     <Layout>
       <PageMeta title='Web Devolpment' />
       <Navbar />
       <FirstPart />
-      <ContactFormTwo />
+      <ContactFormFour />
       <FooterOne footerLight />
     </Layout>
   );
