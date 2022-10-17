@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const CyberService = () => {
-  console.log("CyberService");
   return (
     <section id="Services" className="cyber-features pt-100 bg-light">
       <div className="container">
@@ -46,14 +45,14 @@ const CyberService = () => {
                 <i className="far 	fa-code"></i>
               </div>
               <div className="cyber feature-info-wrap">
-                <h3 className="h5">Web Development</h3>
+                <h3 className="h5">Shopify App Development</h3>
                 <p>
                   Randomised words which don't look even passage of Lorem Ipsum.
                   You need to be Lorem Ipsum randomised even .
                 </p>
               </div>
               <Link
-                to="/web-development"
+                to="/shopify-app-development"
                 className="link-with-icon text-decoration-none"
               >
                 Explore More <i className="far fa-arrow-right"></i>

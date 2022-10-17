@@ -40,6 +40,7 @@ import Partners from "../pages/partners/Partners" ;
 import WebDevolpment from "../pages/services/WebDevolpment";
 import DataBaseServices from "../pages/services/DataBaseServices";
 import BusinessReportServices from "../pages/services/BusinessReportService";
+import ShopifyAppDevService from "../pages/services/ShopifyAppDevService";
 
 class Routes extends Component {
   render() {
@@ -100,6 +101,7 @@ class Routes extends Component {
             <Route exact path="/web-development" component={WebDevolpment} />
             <Route exact path="/database" component={DataBaseServices} />
             <Route exact path="/business-report" component={BusinessReportServices} />
+            <Route exact path="/shopify-app-development" component={ShopifyAppDevService} />
             
             <Route
               exact
