@@ -1,4 +1,5 @@
 import React , {useState}from 'react';
+import { Form  } from 'react-bootstrap';
 
 const ContactFormTwo = () => { 
  const [FullName, setFullName] = useState("") ;
@@ -6,48 +7,71 @@ const ContactFormTwo = () => {
  const [ContactNumber , setContactNumber] = useState("") ; 
  const[email , setemail] = useState("") ; 
  const [body , setbody] = useState("") ; 
-
-
- const handleSubmit = () => {
-  const data = {
-    Parameter:{
-      Target:"yousef.edu@outlook.com",
-      NotificationProfileId :"c49aec07-0243-433a-b03a-1ca3ba276c68",
-      NotificationTemplateId:"100a30f9-2e4f-4718-b038-7dceb7d0c278",
-      Subject:"Contact form",
-      Parameters :[{
-        Name:"Name",
-        Value: FullName
-      },{
-        Name:"Company",
-        Value: CompanyName
-      },{
-        Name:"Email",
-        Value: email
-      },{
-        Name:"Phone",
-        Value: ContactNumber
-      },{
-        Name:"Message",
-        Value: body
-      }]
-    }
+ const [validated, setValidated] = useState(false);
+ 
+ const data = {
+  Parameter:{
+    Target:"yousef.edu@outlook.com",
+    NotificationProfileId :"c49aec07-0243-433a-b03a-1ca3ba276c68",
+    NotificationTemplateId:"100a30f9-2e4f-4718-b038-7dceb7d0c278",
+    Subject:"Contact form",
+    Parameters :[{
+      Name:"Name",
+      Value: FullName
+    },{
+      Name:"Company",
+      Value: CompanyName
+    },{
+      Name:"Email",
+      Value: email
+    },{
+      Name:"Phone",
+      Value: ContactNumber
+    },{
+      Name:"Message",
+      Value: body
+    }]
   }
-   
-
-  const requestOptions = {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(data)
-};
-
-  fetch('https://gateway.elementserp.com/notification/Notification/send', requestOptions)
-  .then(response => response.json())
+}
+const checkData = () =>{
+  if (FullName ==""){return true}
+  if (CompanyName ==""){return true}
+  if (ContactNumber ==""){return true}
+  if (email ==""){return true}
+  if (body ==""){return true}
+}
+const checkFilled = () => {
+  if (FullName !="" && CompanyName !="" && ContactNumber !="" && email !="" && body !="" ){   
   setFullName("") ; 
   setCompanyName("") ;
   setContactNumber("") ; 
   setemail("") ; 
   setbody("") ;
+  return true; 
+}
+
+}
+
+ const handleSubmit = (event) => {
+  const form = event.currentTarget;
+  if (checkData() ) {
+    event.preventDefault();
+    event.stopPropagation();
+    setValidated(false);
+  }
+
+  setValidated(true);
+  if(validated){
+   const requestOptions = {
+     method: 'POST',
+     headers: { 'Content-Type': 'application/json' },
+     body: JSON.stringify(data)
+ };
+ 
+   fetch('https://gateway.elementserp.com/notification/Notification/send', requestOptions)
+   .then(response => response.json())
+  } 
+  checkFilled(); 
 
 }
   return (
@@ -68,32 +92,32 @@ const ContactFormTwo = () => {
                 You are welcome to discuss your project or your needs with us. We can collaborate with you to put the best possible solutions into action.
                 </p>
               </div>
-              <form   className='register-form'>
+               <Form noValidate validated={validated}  className='register-form'>
                 <div className='row'>
                   <div className='col-sm-6'>
                     <label htmlFor='FullName' className='mb-1'>
                       Full Name <span className='text-danger'>*</span>
                     </label>
-                    <div className='input-group mb-3'>
-                      <input
-                        name="FullName"
+                    <div className='Form.Control-group mb-3'>
+                      <Form.Control
                         value={FullName}
-                        type='text'
-                        className='form-control'
-                        id='Full Name'
                         required
-                        placeholder='Full Name'
-                        aria-label='Full Name'
+                        type="text"
+                        className='form-control'
+                        placeholder="Full Name"
+                        defaultValue="Defualt"
                         onChange={(e) => setFullName(e.target.value)}
                       />
+                       <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
                     </div>
                   </div>
                   <div className='col-sm-6 '>
                     <label htmlFor='CompanyName' className='mb-1'>
-                      Company Name
+                      Company Name <span className='text-danger'>*</span>
                     </label>
-                    <div className='input-group mb-3'>
-                      <input
+                    <div className='Form.Control-group mb-3'>
+                      <Form.Control
+                        required
                         name="CompanyName"
                         value={CompanyName}
                         type='text'
@@ -103,20 +127,23 @@ const ContactFormTwo = () => {
                         aria-label='Company Name'
                         onChange={(e) => setCompanyName(e.target.value)}
                       />
+                       <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+                     
                     </div>
                   </div>
                   <div className='col-sm-6'>
                     <label htmlFor='Contact Number' className='mb-1'>
                     Contact Number <span className='text-danger'>*</span>
                     </label>
-                    <div className='input-group mb-3'>
-                      <input
+                    <div className='Form.Control-group mb-3'>
+                      <Form.Control
+                        required
                         name="ContactNumber"
                         value={ContactNumber}
                         type='text'
                         className='form-control'
                         id='Contact Number'
-                        required
+                      
                         placeholder='Contact Number'
                         aria-label='Contact Number'
                         onChange={(e) => setContactNumber(e.target.value)}
@@ -127,14 +154,15 @@ const ContactFormTwo = () => {
                     <label htmlFor='email' className='mb-1'>
                       Email<span className='text-danger'>*</span>
                     </label>
-                    <div className='input-group mb-3'>
-                      <input
+                    <div className='Form.Control-group mb-3'>
+                      <Form.Control
+                        required
                         name="email"
                         value={email}
                         type='email'
                         className='form-control'
                         id='email'
-                        required
+                        
                         placeholder='Email'
                         aria-label='Email'
                         onChange={(e) => setemail(e.target.value)}
@@ -145,13 +173,14 @@ const ContactFormTwo = () => {
                     <label htmlFor='yourMessage' className='mb-1'>
                       Message <span className='text-danger'>*</span>
                     </label>
-                    <div className='input-group mb-3'>
+                    <div className='Form.Control-group mb-3'>
                       <textarea
-                        name="body"
+                         required
+                         name="body"
                         value={body}
                         className='form-control'
                         id='yourMessage'
-                        required
+                        
                         placeholder='
                         Can you inform us about your project or your needs?'
                         style={{ height: '120px' }}
@@ -163,7 +192,7 @@ const ContactFormTwo = () => {
                 <button type='button' className='btn btn-primary mt-4' onClick={handleSubmit} >
                 Send
                 </button>
-              </form>
+              </Form> 
             </div>
             <div className='col-lg-5 col-md-10'>
               <div className='contact-us-img'>
