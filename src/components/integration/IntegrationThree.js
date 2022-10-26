@@ -275,6 +275,28 @@ const IntegrationThree = () => {
                   </div>
                 </Link>
               </div>
+              <div className='col-lg-4 col-md-6'>
+                <Link
+                  to='/integrations/T-soft'
+                  className='position-relative text-decoration-none connected-app-single bg-white border border-2 bg-white mt-4 transition-base rounded-custom d-block overflow-hidden p-5'
+                >
+                  <div className='position-relative connected-app-content'>
+                    <div className='integration-logo bg-white rounded-circle p-2 d-inline-block'>
+                      <img
+                        src='assets/img/integations/tsoft.png'
+                        width='40'
+                        alt='ticimax'
+                        className='img-fluid fit'
+                      />
+                    </div>
+                    <h5>T-Soft</h5>
+                    <p className='mb-0 text-muted'>
+                    If your e-commerce site is hosted on the Ticimax infrastructure,
+                     you can easily manage many...
+                    </p>
+                  </div>
+                </Link>
+              </div>
             </div>
           </div>
         </div>

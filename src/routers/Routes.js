@@ -26,6 +26,7 @@ import PttAvmtg from "../components/integration/integration_docs/PttAvm/PttAvmtg
 import Shopifytg from "../components/integration/integration_docs/Shopify/Shopifytg";
 import Ticimaxtg from "../components/integration/integration_docs/Ticimax/Ticimaxtg";
 import Trendyoltg from "../components/integration/integration_docs/Trendyol/Trendyolgt";
+import Tsofttg from "../components/integration/integration_docs/T-soft/Tsofttg";
 class Routes extends Component {
 
   render() {
@@ -56,14 +57,14 @@ class Routes extends Component {
             <Route exact path="/database" component={DataBaseServices} />
             <Route exact path="/business-report" component={BusinessReportServices} />
             <Route exact path="/integrations/shopify-app-development" component={ShopifyAppDevService} />
-            <Route excat path="/integrations/hepsiburada" component={Hepsiburadatg} />
-            <Route excat path="/integrations/n11" component={N11tg} />
+            <Route exact path="/integrations/hepsiburada" component={Hepsiburadatg} />
+            <Route exact path="/integrations/n11" component={N11tg} />
             <Route excat path="/integrations/ideasoft" component={Ideasofttg} />
-            <Route excat path="/integrations/PttAvm" component={PttAvmtg} />
-            <Route excat path="/integrations/Shopify" component={Shopifytg} />
-            <Route excat path="/integrations/Ticimax" component={Ticimaxtg} />
-            <Route excat path="/integrations/Trendyol" component={Trendyoltg} />
-            
+            <Route exact path="/integrations/PttAvm" component={PttAvmtg} />
+            <Route exact path="/integrations/Shopify" component={Shopifytg} />
+            <Route exact path="/integrations/Ticimax" component={Ticimaxtg} />
+            <Route exact path="/integrations/Trendyol" component={Trendyoltg} />
+            <Route exact path="/integrations/T-soft" component={Tsofttg} />
             <Route
               exact
               path="/integration-single"
