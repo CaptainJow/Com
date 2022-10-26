@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import HeroTitle from '../../components/common/HeroTitle';
 import './HeroNine.css' ;
-import { useTranslation } from "react-i18next";
 const HeroNine = () => {
-  const { t, i18n } = useTranslation();
   return (
     <>
       <section

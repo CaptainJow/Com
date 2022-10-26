@@ -34,14 +34,14 @@ const ContactFormTwo = () => {
   }
 }
 const checkData = () =>{
-  if (FullName ==""){return true}
-  if (CompanyName ==""){return true}
-  if (ContactNumber ==""){return true}
-  if (email ==""){return true}
-  if (body ==""){return true}
+  if (FullName ===""){return true}
+  if (CompanyName ===""){return true}
+  if (ContactNumber ===""){return true}
+  if (email ===""){return true}
+  if (body ===""){return true}
 }
 const checkFilled = () => {
-  if (FullName !="" && CompanyName !="" && ContactNumber !="" && email !="" && body !="" ){   
+  if (FullName !=="" && CompanyName !=="" && ContactNumber !=="" && email !=="" && body !=="" ){   
   setFullName("") ; 
   setCompanyName("") ;
   setContactNumber("") ; 

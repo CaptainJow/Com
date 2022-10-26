@@ -1,6 +1,5 @@
 import React from 'react';
 import PageHeader from '../../components/common/PageHeader';
-import FeatureTwo from '../../components/features/FeatureTwo';
 import FooterTwo from "../../layout/Footer/FooterTwo";
 import Navbar from '../../layout/Header/Navbar';
 import Layout from '../../layout/Layout';

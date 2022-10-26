@@ -1,4 +1,4 @@
-import React ,{useState} from 'react';
+import React  from 'react';
 import "./stylesWebDev.css" ; 
 
 const Database = () => {
@@ -260,7 +260,7 @@ const Database = () => {
             </div>
             </div>
             <div>
-                <h3 className=" fw-bold paragraph-title3" style={ {color:"black" }}></h3>
+                <p className=" fw-bold paragraph-title3" style={ {color:"black" }}></p>
             </div>
             <div>
             <p className='Paragraph-context-1'>Shamssoftware, a company that develops websites, is available to those who want unique web applications. We offer the most high-quality, economical custom web programming services. Experience in the company and complete project management support encourage trust and productive collaboration. 

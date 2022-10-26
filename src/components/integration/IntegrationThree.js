@@ -10,7 +10,7 @@ const IntegrationThree = () => {
             <div className='row'>
               <div className='col-lg-4 col-md-6'>
                 <Link
-                  to='/integration-single'
+                  to='/integrations/Shopify'
                   className='position-relative text-decoration-none connected-app-single bg-white border border-2 bg-white mt-0 mt-lg-0 mt-md-0 transition-base rounded-custom d-block overflow-hidden p-5'
                 >
                   <div className='position-relative connected-app-content'>
@@ -24,15 +24,16 @@ const IntegrationThree = () => {
                     </div>
                     <h5>Shopify</h5>
                     <p className='mb-0 text-muted'>
-                      Globally engage tactical niche markets rather than
-                      client-based competently generate unique e-services
+                    With Shamssoftware products and Shopify integration, 
+                    you can effortlessly manage your e-commerce ...
+
                     </p>
                   </div>
                 </Link>
               </div>
               <div className='col-lg-4 col-md-6'>
                 <Link
-                  to='/integration-single'
+                  to='/integrations/hepsiburada'
                   className='position-relative text-decoration-none connected-app-single bg-white border border-2 bg-white mt-4 mt-lg-0 mt-md-0 transition-base rounded-custom d-block overflow-hidden p-5'
                 >
                   <div className='position-relative connected-app-content'>
@@ -46,18 +47,15 @@ const IntegrationThree = () => {
                     </div>
                     <h5>Hepsiburada</h5>
                     <p className='mb-0 text-muted'>
-                      Globally engage tactical niche markets rather than
-                      client-based competently generate unique e-services
+                    Shamssoftware's tech team offers long-term solutions for e-commerce businesses.
+                     API integration ...
                     </p>
                   </div>
-                  <span className='badge position-absolute integration-badge bg-primary-soft px-3 py-2 text-primary'>
-                    New
-                  </span>
                 </Link>
               </div>
               <div className='col-lg-4 col-md-6'>
                 <Link
-                  to='/integration-single'
+                  to='/integrations/Ideasoft'
                   className='position-relative text-decoration-none connected-app-single bg-white border border-2 bg-white mt-4 mt-lg-0 transition-base rounded-custom d-block overflow-hidden p-5'
                 >
                   <div className='position-relative connected-app-content'>
@@ -71,18 +69,15 @@ const IntegrationThree = () => {
                     </div>
                     <h5>Ideasoft</h5>
                     <p className='mb-0 text-muted'>
-                      Globally engage tactical niche markets rather than
-                      client-based competently generate unique e-services
+                    If your e-commerce site is hosted on the Ideasoft infrastructure, you can easily manage many operations via ...
                     </p>
                   </div>
-                  <span className='badge position-absolute integration-badge bg-danger-soft px-3 py-2 text-danger'>
-                    Premium
-                  </span>
+                
                 </Link>
               </div>
               <div className='col-lg-4 col-md-6'>
                 <Link
-                  to='/integration-single'
+                  to='/integrations/n11'
                   className='position-relative text-decoration-none connected-app-single bg-white border border-2 bg-white mt-4 transition-base rounded-custom d-block overflow-hidden p-5'
                 >
                   <div className='position-relative connected-app-content'>
@@ -96,13 +91,10 @@ const IntegrationThree = () => {
                     </div>
                     <h5>N11</h5>
                     <p className='mb-0 text-muted'>
-                      Globally engage tactical niche markets rather than
-                      client-based competently generate unique e-services
+                    We can perform all required integrations in stock, order,
+                     and service architecture with the n11.com... 
                     </p>
                   </div>
-                  <span className='badge position-absolute integration-badge bg-success-soft px-3 py-2 text-success'>
-                    Free
-                  </span>
                 </Link>
               </div>
               <div className='col-lg-4 col-md-6'>
@@ -125,14 +117,12 @@ const IntegrationThree = () => {
                       client-based competently generate unique e-services
                     </p>
                   </div>
-                  <span className='badge position-absolute integration-badge bg-danger-soft px-3 py-2 text-danger'>
-                    Premium
-                  </span>
+            
                 </Link>
               </div>
               <div className='col-lg-4 col-md-6'>
                 <Link
-                  to='/integration-single'
+                  to='/integrations/Trendyol'
                   className='position-relative text-decoration-none connected-app-single bg-white border border-2 bg-white mt-4 transition-base rounded-custom d-block overflow-hidden p-5'
                 >
                   <div className='position-relative connected-app-content'>
@@ -146,8 +136,8 @@ const IntegrationThree = () => {
                     </div>
                     <h5>Trendyol</h5>
                     <p className='mb-0 text-muted'>
-                      Globally engage tactical niche markets rather than
-                      client-based competently generate unique e-services
+                    Shamssoftware's advanced and flexible e-commerce management
+                     network for businesses also includes Trendyol  ...
                     </p>
                   </div>
                 </Link>
@@ -216,14 +206,12 @@ const IntegrationThree = () => {
                       client-based competently generate unique e-services
                     </p>
                   </div>
-                  <span className='badge position-absolute integration-badge bg-warning-soft px-3 py-2 text-warning'>
-                    Popular
-                  </span>
+              
                 </Link>
               </div>
               <div className='col-lg-4 col-md-6'>
                 <Link
-                  to='/integration-single'
+                  to='/integrations/PttAvm'
                   className='position-relative text-decoration-none connected-app-single bg-white border border-2 bg-white mt-4 transition-base rounded-custom d-block overflow-hidden p-5'
                 >
                   <div className='position-relative connected-app-content'>
@@ -237,15 +225,15 @@ const IntegrationThree = () => {
                     </div>
                     <h5>PttAvm</h5>
                     <p className='mb-0 text-muted'>
-                      Globally engage tactical niche markets rather than
-                      client-based competently generate unique e-services
+                    We can perform all required integrations in stock, order, and service architecture 
+                    with the PttAvm ....
                     </p>
                   </div>
                 </Link>
               </div>
               <div className='col-lg-4 col-md-6'>
                 <Link
-                  to='/integration-single'
+                  to='/integrations/Ticimax'
                   className='position-relative text-decoration-none connected-app-single bg-white border border-2 bg-white mt-4 transition-base rounded-custom d-block overflow-hidden p-5'
                 >
                   <div className='position-relative connected-app-content'>
@@ -259,8 +247,8 @@ const IntegrationThree = () => {
                     </div>
                     <h5>ticimax</h5>
                     <p className='mb-0 text-muted'>
-                      Globally engage tactical niche markets rather than
-                      client-based competently generate unique e-services
+                    If your e-commerce site is hosted on the Ticimax infrastructure,
+                     you can easily manage many...
                     </p>
                   </div>
                 </Link>

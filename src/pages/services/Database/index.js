@@ -1,12 +1,7 @@
-import React ,{useState} from 'react';
+import React  from 'react';
 import "../WebDevComp/stylesWebDev.css" ; 
 
 const FirstPart = () => {
- const [displayParagraph, setDispalyParagraph] = useState(false) ; 
-
- const toggleParagraph = () => {
-    setDispalyParagraph(prev => !prev) ;
- }
   return (
             <>
             <div className='Paragraph-web-1'>

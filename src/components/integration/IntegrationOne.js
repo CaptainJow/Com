@@ -10,7 +10,7 @@ const IntegrationOne = () => {
             <div className='col-lg-3'>
               <div className='integration-list-wrap'>
                 <a
-                  href='integration-single.html'
+                  href='/integrations/Shopify'
                   className='integration-1'
                   data-bs-toggle='tooltip'
                   data-bs-placement='top'
@@ -23,7 +23,7 @@ const IntegrationOne = () => {
                   />
                 </a>
                 <a
-                  href='integration-single.html'
+                  href='/integrations/hepsiburada'
                   className='integration-2'
                   data-bs-toggle='tooltip'
                   data-bs-placement='top'
@@ -36,7 +36,7 @@ const IntegrationOne = () => {
                   />
                 </a>
                 <a
-                  href='integration-single.html'
+                  href='/integrations/Ideasoft'
                   className='integration-3'
                   data-bs-toggle='tooltip'
                   data-bs-placement='top'
@@ -50,7 +50,7 @@ const IntegrationOne = () => {
                 </a>
 
                 <a
-                  href='integration-single.html'
+                  href='/integrations/n11'
                   className='integration-4'
                   data-bs-toggle='tooltip'
                   data-bs-placement='top'
@@ -76,7 +76,7 @@ const IntegrationOne = () => {
                   />
                 </a>
                 <a
-                  href='integration-single.html'
+                  href='/integrations/Trendyol'
                   className='integration-6'
                   data-bs-toggle='tooltip'
                   data-bs-placement='top'
@@ -156,7 +156,7 @@ const IntegrationOne = () => {
                     />
                   </a>
                   <a
-                    href='integration-single.html'
+                    href='/integrations/PttAvm'
                     className='integration-11'
                     data-bs-toggle='tooltip'
                     data-bs-placement='top'
@@ -169,7 +169,7 @@ const IntegrationOne = () => {
                     />
                   </a>
                   <a
-                    href='integration-single.html'
+                    href='/integrations/Ticimax'
                     className='integration-12'
                     data-bs-toggle='tooltip'
                     data-bs-placement='top'
@@ -188,7 +188,7 @@ const IntegrationOne = () => {
           <div className='row justify-content-center mt-100'>
             <div className='col-lg-5 col-md-12'>
               <a
-                href='integration-single.html'
+                href='/integrations/Trendyol'
                 className='mb-4 mb-lg-0 mb-xl-0 position-relative text-decoration-none connected-app-single border border-light border-2 rounded-custom d-block overflow-hidden p-5'
               >
                 <div className='position-relative connected-app-content'>
@@ -214,7 +214,7 @@ const IntegrationOne = () => {
 
             <div className='col-lg-5 col-md-12'>
               <a
-                href='integration-single.html'
+                href='/integrations/n11'
                 className='position-relative text-decoration-none connected-app-single border border-light border-2 rounded-custom d-block overflow-hidden p-5'
               >
                 <div className='position-relative connected-app-content'>
