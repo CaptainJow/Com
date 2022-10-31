@@ -9,7 +9,7 @@ import ContactFormFour from '../../../../components/contact/ContactFormFour';
 const Trendyoltg = () => {
   return (
     <Layout>
-      <PageMeta title='Ticimax' />
+      <PageMeta title='Trendyol' />
       <Navbar />
       <Trendyol />
       <ContactFormFour />

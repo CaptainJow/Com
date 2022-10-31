@@ -9,7 +9,7 @@ import ContactFormFour from '../../components/contact/ContactFormFour';
 const ShopifyAppDevService = () => {
   return (
     <Layout>
-      <PageMeta title='DataBase' />
+      <PageMeta title='Shopify App Development' />
       <Navbar />
       <Shopify />
       <ContactFormFour />

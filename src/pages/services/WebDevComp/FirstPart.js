@@ -49,7 +49,7 @@ const Database = () => {
                      Shamssoftware is a team of 10+ certified experts with comprehensive knowledge in:</p>
             </div>
             <div className='container'>
-            <div class="row">
+            <div className="row">
                 <div className='col-3'>
                     <p className='Paragraph-context-1'>
                         <ul className='Paragraph-list'>
@@ -165,94 +165,94 @@ const Database = () => {
                 <h3 className=" fw-bold paragraph-title3" style={ {color:"black" , textAlign :"center"} }>Technologies</h3>
             </div>
             <div>
-            <div class="container-fluid center-cont">
-                <div class="row">
+            <div className="container-fluid center-cont">
+                <div className="row">
 
-                <div class=" col-md-3 col-6 col-code">
+                <div className=" col-md-3 col-6 col-code">
                      <img width="32" height="32" src="assets/img/grid/mongodb.svg" alt="MongoDB"/>
                      <span className='span-title'> MongoDB</span>
                 </div>
-                <div class=" col-md-3 col-6 col-code">
+                <div className=" col-md-3 col-6 col-code">
                      <img width="32" height="32" src="assets/img/grid/mysql.svg" alt="MySQL"/>
                      <span className='span-title'> MySQL</span>
                 </div>
-                <div class=" col-md-3 col-6 col-code">
+                <div className=" col-md-3 col-6 col-code">
                     <img width="32" height="32" src="assets/img/grid/nodejs.svg" alt="NodeJS"/>
                     <span className='span-title'> NodeJS</span>
                 </div>
-                <div class=" col-md-3 col-6 col-code">
+                <div className=" col-md-3 col-6 col-code">
                     <img width="32" height="32" src="assets/img/grid/typescript.svg" alt="Typscript"/>
                     <span className='span-title'> Typscript</span>
                 </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-3  col-6 col-code">
+                <div className="row">
+                    <div className="col-md-3  col-6 col-code">
                         <img width="32" height="32" src="assets/img/grid/postgresql.svg" alt="Postgresql"/>
                         <span className='span-title'> PostgreSQL</span>
                     </div>
-                    <div class="col-md-3 col-6 col-code">
+                    <div className="col-md-3 col-6 col-code">
                             <img width="32" height="32" src="assets/img/grid/elasticsearch.svg" alt="ElasticSearch"/>
                             <span className='span-title'> ElasticSearch</span>
                     </div>
-                    <div class="col-md-3 col-6 col-code">
+                    <div className="col-md-3 col-6 col-code">
                         <img width="32" height="32" src="assets/img/grid/redis.svg" alt="Redis"/>
                         <span className='span-title'> Redis</span>
                     </div>
-                    <div class="col-md-3  col-6 col-code">
+                    <div className="col-md-3  col-6 col-code">
                         <img width="32" height="32" src="assets/img/grid/rabbitmq.svg" alt="RabbitMQ"/>
                         <span className='span-title'> RabbitMQ</span>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-3 col-6 col-code">
+                <div className="row">
+                    <div className="col-md-3 col-6 col-code">
                         <img width="32" height="32" src="assets/img/grid/docker.svg" alt="Docker"/>
                         <span className='span-title'> Docker</span>
                     </div>
-                    <div class="col-md-3 col-6 col-code">
+                    <div className="col-md-3 col-6 col-code">
                         <img width="32" height="32" src="assets/img/grid/aws.svg" alt="AWS"/>
                         <span className='span-title'> AWS</span>
                     </div>
-                    <div class="col-md-3 col-6 col-code">
+                    <div className="col-md-3 col-6 col-code">
                             <img width="32" height="32" src="assets/img/grid/react.svg" alt="React"/>
                             <span className='span-title'> React</span>
                     </div>
-                    <div class="col-md-3 col-6 col-code">
+                    <div className="col-md-3 col-6 col-code">
                             <img width="32" height="32" src="assets/img/grid/git.svg" alt="Git"/>
                             <span className='span-title'> Git</span>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-3  col-6 col-code">
+                <div className="row">
+                    <div className="col-md-3  col-6 col-code">
                         <img width="32" height="32" src="assets/img/grid/sass.svg" alt="Sass"/>
                         <span className='span-title'> Sass</span>
                     </div>
-                    <div class="col-md-3 col-6 col-code">
+                    <div className="col-md-3 col-6 col-code">
                         <img width="32" height="32" src="assets/img/grid/react.svg" alt="ReactNative"/>
                         <span className='span-title'> ReactNative</span>
                     </div>
-                    <div class="col-md-3 col-6 col-code">
+                    <div className="col-md-3 col-6 col-code">
                             <img width="32" height="32" src="assets/img/grid/javascript.png" alt="Kss"/>
                             <span className='span-title' style={ {marginLeft:"5px"} }> JavaScript </span>
                     </div>
-                    <div class="col-md-3 col-6 col-code">
+                    <div className="col-md-3 col-6 col-code">
                         <img width="32" height="32" src="assets/img/grid/firebase.svg" alt="FireBass"/>
                         <span className='span-title'> FireBase</span>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-3  col-6 col-code">
+                <div className="row">
+                    <div className="col-md-3  col-6 col-code">
                         <img width="32" height="32" src="assets/img/grid/python.png" alt="Python"/>
                         <span className='span-title'> Python</span>
                     </div>
-                    <div class="col-md-3 col-6 col-code">
+                    <div className="col-md-3 col-6 col-code">
                         <img width="32" height="32" src="assets/img/grid/core.png" alt="ReactNative"/>
                         <span className='span-title'> Core</span>
                     </div>
-                    <div class="col-md-3 col-6 col-code">
+                    <div className="col-md-3 col-6 col-code">
                             <img width="32" height="32" src="assets/img/grid/asp.png" alt="Kss"/>
                             <span className='span-title' style={ {marginLeft:"10px"} }> ASP.net </span>
                     </div>
-                    <div class="col-md-3 col-6 col-code">
+                    <div className="col-md-3 col-6 col-code">
                         <img width="32" height="32" src="assets/img/grid/html5.png" alt="HTML"/>
                         <span className='span-title'> HTML </span>
                     </div>

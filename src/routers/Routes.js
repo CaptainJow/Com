@@ -56,7 +56,7 @@ class Routes extends Component {
             <Route exact path="/web-development" component={WebDevolpment} />
             <Route exact path="/database" component={DataBaseServices} />
             <Route exact path="/business-report" component={BusinessReportServices} />
-            <Route exact path="/integrations/shopify-app-development" component={ShopifyAppDevService} />
+            <Route exact path="/shopify-app-development" component={ShopifyAppDevService} />
             <Route exact path="/integrations/hepsiburada" component={Hepsiburadatg} />
             <Route exact path="/integrations/n11" component={N11tg} />
             <Route excat path="/integrations/ideasoft" component={Ideasofttg} />

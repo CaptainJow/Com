@@ -51,35 +51,35 @@ const FirstPart = () => {
                 <div>
                     <h2 className="display-5 fw-bold paragraph-title2" style={ {color:"black" }}>Tools</h2>
                 </div>
-                <div class="container">
-                <div class="row">
-                <div class=" col-md-3 col-6 col-code">
+                <div className="container">
+                <div className="row">
+                <div className=" col-md-3 col-6 col-code">
                     <img width="45" height="45" src="assets/img/grid/microsoftSQL.png" alt="Microsoft SQL"/>
                     <span className='span-title'> Microsoft SQL </span>
                 </div>
-                <div class=" col-md-3 col-6 col-code">
+                <div className=" col-md-3 col-6 col-code">
                     <img width="45" height="45" src="assets/img/grid/mysql.svg" alt="MySQL"/>
                     <span className='span-title'> MySQL</span>
                 </div>
-                <div class=" col-md-3 col-6 col-code">
+                <div className=" col-md-3 col-6 col-code">
                      <img width="45" height="45" src="assets/img/grid/mongodb.svg" alt="MongoDB"/>
                      <span className='span-title'> MongoDB</span>
                 </div>
-                <div class=" col-md-3 col-6 col-code">
+                <div className=" col-md-3 col-6 col-code">
                      <img width="45" height="45" src="assets/img/grid/plsql.png" alt="PLSQL"/>
                      <span className='span-title'> PL-SQL</span>
                 </div>
                 </div>
-                <div class="row">
-                <div class=" col-md-4 col-6 col-code">
+                <div className="row">
+                <div className=" col-md-4 col-6 col-code">
                     <img width="45" height="45" src="assets/img/grid/redis.svg" alt="Redis"/>
                     <span className='span-title'> Redis</span>
                 </div>
-                <div class="col-md-4 col-6 col-code">
+                <div className="col-md-4 col-6 col-code">
                     <img width="45" height="45" src="assets/img/grid/firebase.svg" alt="FireBase"/>
                     <span className='span-title'> FireBase</span>
                 </div>
-                <div class="col-md-4 col-6 col-code">
+                <div className="col-md-4 col-6 col-code">
                      <img width="45" height="45" src="assets/img/grid/postgresql.svg" alt="PostGreSQL"/>
                      <span className='span-title'> PostGreSQL</span>
                 </div>

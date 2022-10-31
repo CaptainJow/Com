@@ -94,76 +94,76 @@ const Shopify = () => {
                 <h3 className=" fw-bold paragraph-title3" style={ {color:"black" , textAlign :"center"} }>TECHNOLOGIES WE USE FOR SHOPIFY DEVELOPMENT</h3>
             </div>
             <div>
-            <div class="container-fluid center-cont">
-                <div class="row">
+            <div className="container-fluid center-cont">
+                <div className="row">
 
-                <div class=" col-md-3 col-6 col-code">
+                <div className=" col-md-3 col-6 col-code">
                      <img width="32" height="32" src="assets/img/grid/Ruby.png" alt="Ruby"/>
                      <span className='span-title'> Ruby</span>
                 </div>
-                <div class=" col-md-3 col-6 col-code">
+                <div className=" col-md-3 col-6 col-code">
                      <img width="32" height="32" src="assets/img/grid/mysql.svg" alt="MySQL"/>
                      <span className='span-title'> MySQL</span>
                 </div>
-                <div class=" col-md-3 col-6 col-code">
+                <div className=" col-md-3 col-6 col-code">
                     <img width="32" height="32" src="assets/img/grid/nodejs.svg" alt="NodeJS"/>
                     <span className='span-title'> NodeJS</span>
                 </div>
-                <div class=" col-md-3 col-6 col-code">
+                <div className=" col-md-3 col-6 col-code">
                     <img width="32" height="32" src="assets/img/grid/polaris.png" alt="Polaris"/>
                     <span className='span-title'> Polaris</span>
                 </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-3  col-6 col-code">
+                <div className="row">
+                    <div className="col-md-3  col-6 col-code">
                         <img width="32" height="32" src="assets/img/grid/postgresql.svg" alt="Postgresql"/>
                         <span className='span-title'> PostgreSQL</span>
                     </div>
-                    <div class="col-md-3 col-6 col-code">
+                    <div className="col-md-3 col-6 col-code">
                             <img width="32" height="32" src="assets/img/grid/heroku.png" alt="Heroku"/>
                             <span className='span-title'> Heroku</span>
                     </div>
-                    <div class="col-md-3 col-6 col-code">
+                    <div className="col-md-3 col-6 col-code">
                         <img width="32" height="32" src="assets/img/grid/redis.svg" alt="Redis"/>
                         <span className='span-title'> Redis</span>
                     </div>
-                    <div class="col-md-3  col-6 col-code">
+                    <div className="col-md-3  col-6 col-code">
                         <img width="32" height="32" src="assets/img/grid/REST.png" alt="REST"/>
                         <span className='span-title'> REST</span>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-3 col-6 col-code">
+                <div className="row">
+                    <div className="col-md-3 col-6 col-code">
                         <img width="32" height="32" src="assets/img/grid/hydrogen.png" alt="Hydrogen"/>
                         <span className='span-title'> Hydrogen</span>
                     </div>
-                    <div class="col-md-3 col-6 col-code">
+                    <div className="col-md-3 col-6 col-code">
                         <img width="32" height="32" src="assets/img/grid/aws.svg" alt="AWS"/>
                         <span className='span-title'> AWS</span>
                     </div>
-                    <div class="col-md-3 col-6 col-code">
+                    <div className="col-md-3 col-6 col-code">
                             <img width="32" height="32" src="assets/img/grid/react.svg" alt="React"/>
                             <span className='span-title'> React</span>
                     </div>
-                    <div class="col-md-3 col-6 col-code">
+                    <div className="col-md-3 col-6 col-code">
                             <img width="32" height="32" src="assets/img/grid/git.svg" alt="Git"/>
                             <span className='span-title'> Git</span>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-3  col-6 col-code">
+                <div className="row">
+                    <div className="col-md-3  col-6 col-code">
                         <img width="32" height="32" src="assets/img/grid/nextjs.png" alt="NextJs"/>
                         <span className='span-title'> NextJs</span>
                     </div>
-                    <div class="col-md-3 col-6 col-code">
+                    <div className="col-md-3 col-6 col-code">
                         <img width="32" height="32" src="assets/img/grid/php.svg" alt="PHP"/>
                         <span className='span-title'> PHP</span>
                     </div>
-                    <div class="col-md-3 col-6 col-code">
+                    <div className="col-md-3 col-6 col-code">
                             <img width="32" height="32" src="assets/img/grid/graphql.svg" alt="Kss"/>
                             <span className='span-title' style={ {marginLeft:"5px"} }> GraphQL</span>
                     </div>
-                    <div class="col-md-3 col-6 col-code">
+                    <div className="col-md-3 col-6 col-code">
                         <img width="32" height="32" src="assets/img/grid/core.png" alt="ReactNative"/>
                         <span className='span-title'> Core</span>
                     </div>
